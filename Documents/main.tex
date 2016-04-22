@@ -1,0 +1,125 @@
+﻿\documentclass[12pt,openright]{book}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 引用参考文献为上标表示使用命令'\citeu'  by Liang Jin
+\newcommand{\citeu}[1]{$^{\mbox{\protect \scriptsize \cite{#1}}}$}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{epsf}
+%\usepackage{eucal}
+\usepackage{ifxetex}
+\usepackage[numbers,sort&compress]{natbib}% 此命令要放在设置hyperref的命令之前
+
+\usepackage{graphicx}  % needed for figures
+\usepackage{float}
+\usepackage{dcolumn}   % needed for some tables
+\usepackage{bm}        % for math
+\usepackage{amssymb}   % for math
+\usepackage{slashed}   % for Dirac Slash
+\usepackage{amsmath}   % for mutiline eqn
+\usepackage{simplewick} % for contraction
+\usepackage{verbatim}  % for multi-line comment
+\usepackage{color} % for textcolor
+\usepackage{appendix} % for appendix
+
+%\RequirePackage[dvipdfm]{hyperref}
+%   根据需要选择 hyperref 宏包调用方式.
+\ifxetex
+  \usepackage[bookmarksnumbered]{hyperref}
+\else
+  \usepackage[unicode,bookmarksnumbered]{hyperref}
+\fi
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%更改超链接的颜色 by Liang Jin
+\hypersetup{colorlinks,citecolor=blue,linkcolor=blue,urlcolor=blue,CJKbookmarks=blue}
+%\hypersetup{colorlinks,citecolor=red,linkcolor=red,urlcolor=red,CJKbookmarks=red}
+%\hypersetup{colorlinks,citecolor=blue,linkcolor=magenta,urlcolor=cyan}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[emptydoublepage]{gameThesis}
+%\usepackage{biborder}% biborder 宏包使得参考文献按照出现顺序排序. 如果您使用 bib文件, %不需要此宏包.
+\newtheorem{Theorem}{\hskip 2em 定理}[chapter]
+\newtheorem{Lemma}[Theorem]{\hskip 2em 引理}
+\newtheorem{Corollary}[Theorem]{\hskip 2em 推论}
+\newtheorem{Proposition}[Theorem]{\hskip 2em 命题}
+\newtheorem{Definition}[Theorem]{\hskip 2em 定义}
+\newtheorem{Example}[Theorem]{\hskip 2em 例}
+\renewcommand\appendixname{附录}
+%\renewcommand{\proofname}{\bf 证明}
+\graphicspath{{figures/}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%加入对图表的旋转操作 by Liang Jin
+\usepackage[figuresright]{rotating}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%避免修改mathcal字体 by Liang Jin
+%\usepackage[utopia]{mathdesign}
+\DeclareSymbolFont{symbols}{OMS}{cmsy}{m}{n}
+\DeclareSymbolFontAlphabet{\mathcal}{symbols}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%  设置基本信息
+%  注意:  逗号`,'是项目分隔符. 如果某一项的值出现逗号, 应放在花括号内, 如 {,}
+%
+\NKTsetup{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 前言部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%更改正文前页码缺省设置:小写罗马->大写罗马 by Liang Jin
+\makeatletter
+\renewcommand\frontmatter[1]{%
+   \cleardoublepage
+ \@mainmatterfalse
+ \pagenumbering{#1}}
+\makeatother
+\frontmatter{Roman}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%下面代码消除索引图表中章节间的空行 by Liang Jin
+\makeatletter
+\def\@chapter[#1]#2{\ifnum \c@secnumdepth >\m@ne
+                       \if@mainmatter
+                         \refstepcounter{chapter}%
+                         \typeout{\@chapapp\space\thechapter}%
+                         \addcontentsline{toc}{chapter}%
+                                   {\protect\numberline{\chaptername}\hspace{0em}#1}%
+                       \else
+                         \addcontentsline{toc}{chapter}{#1}%
+                       \fi
+                    \else
+                      \addcontentsline{toc}{chapter}{#1}%
+                    \fi
+                    \chaptermark{#1}%
+                    \if@twocolumn
+                      \@topnewpage[\@makechapterhead{#2}]%
+                    \else
+                      \@makechapterhead{#2}%
+                      \@afterheading
+                    \fi}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 在目录中加入目录的链接 by Liang Jin
+%  \addcontentsline{toc}{chapter}\contentsname
+%  \tableofcontents
+  % 摘要
+\phantomsection
+%\addcontentsline{toc}{chapter}{目~~录}
+\tableofcontents
+  % 插图目录
+\cleardoublepage
+\phantomsection
+%\addcontentsline{toc}{section}{表格目录}
+%\listoftables %显示所有表格目录
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 正文部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter
+    \include{Artwork/Artwork}
+    \include{Charactor/Charactor}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\backmatter
+% 附录
+\end{document}

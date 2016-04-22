@@ -1,0 +1,9 @@
+\contentsline {chapter}{\numberline {第\CJKnumber {1}章}\hspace {0em}美术资源规范}{1}{chapter.1}
+\contentsline {section}{\numberline {第\CJKnumber {1}节}角色系统}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}地面人形角色}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}地面四脚角色}{1}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}空中人形角色}{1}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}空中怪物角色}{1}{subsection.1.1.4}
+\contentsline {subsection}{\numberline {1.1.5}塔状建筑角色}{1}{subsection.1.1.5}
+\contentsline {section}{\numberline {第\CJKnumber {2}节}场景系统}{1}{section.1.2}
+\contentsline {chapter}{\numberline {第\CJKnumber {2}章}\hspace {0em}角色定制系统}{2}{chapter.2}
