@@ -1,0 +1,35 @@
+﻿
+{
+
+"ID" : "2",
+"ElementName" : "new element 2",
+"MeshPath" : "",
+"TexturePath" : "",
+"PrefabPath" : "",
+"Dependency" : "",
+"LocalPos" : "0.0000,0.0000,0.0000",
+"LocalEular" : "0.0000,0.0000,0.0000",
+"MinSize" : "0.9500,0.9500,0.9500",
+"MaxSize" : "1.5000,1.5000,1.5000",
+"MatType" : "ECMT_Normal",
+"Pos" : "ECP_Back",
+"WeaponType" : "EHWT_SingleHandR",
+
+}
+{
+
+"ID" : "0",
+"ElementName" : "new element",
+"MeshPath" : "测试中文",
+"TexturePath" : "",
+"PrefabPath" : "",
+"Dependency" : "",
+"LocalPos" : "0.0000,0.0000,0.0000",
+"LocalEular" : "0.0000,0.0000,0.0000",
+"MinSize" : "0.9500,0.9500,0.9500",
+"MaxSize" : "1.5000,1.5000,1.5000",
+"MatType" : "ECMT_Normal",
+"Pos" : "ECP_Body",
+"WeaponType" : "EHWT_SingleHandR",
+
+}
