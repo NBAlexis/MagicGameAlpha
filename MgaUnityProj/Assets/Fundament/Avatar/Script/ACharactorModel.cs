@@ -35,12 +35,14 @@ public class ACharactorModel : MonoBehaviour
 	
 	}
 
-    public void Assemble()
+    #region Need to be override
+
+    virtual public void Assemble()
     {
         
     }
 
-    public void AssembleAndFix()
+    virtual public void AssembleAndFix()
     {
 
     }
@@ -49,4 +51,12 @@ public class ACharactorModel : MonoBehaviour
     {
 
     }
+
+    virtual public void HideAll()
+    {
+        
+    }
+
+    #endregion
+
 }
