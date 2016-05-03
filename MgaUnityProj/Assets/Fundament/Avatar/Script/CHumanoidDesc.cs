@@ -21,6 +21,8 @@ public enum EHumanoidWeapon : byte
     EHT_DoubleHand_Wizard,
     EHT_DoubleHand_Fight,
     EHT_Shoot,
+
+    EHT_Max,
 }
 
 public enum EHumanoidDoc : byte

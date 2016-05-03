@@ -165,4 +165,16 @@ public class CommonFunctions
         }
         return ret;
     }
+
+    public static GameObject FindChildrenByName(GameObject theGo, string sName, bool bIncludeDeactive = false)
+    {
+        foreach (Transform trans in theGo.GetComponentsInChildren<Transform>(bIncludeDeactive))
+        {
+            if (FindFullName(theGo, trans.gameObject).Contains(sName))
+            {
+                return trans.gameObject;    
+            }
+        }
+        return null;
+    }
 }

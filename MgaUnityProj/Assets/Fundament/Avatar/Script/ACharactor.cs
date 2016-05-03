@@ -32,6 +32,7 @@ public class ACharactor : MonoBehaviour
 
     #region Animation
 
+    public ACharactorAnimation m_pAnim;
     //for some buff that can forzen the animation
     public float GetAnimRate()
     {

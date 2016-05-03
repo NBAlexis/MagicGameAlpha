@@ -1249,11 +1249,11 @@
 
 "ID" : "89",
 "ElementName" : "Face",
-"Tags" : "Head;Male",
+"Tags" : "Male;Head",
 "ObjectPath" : "Body/Head/C_GH_Head_M4/Face",
 "Dependency" : "C_GH_Head_M4",
-"Pos" : "ECP_Head",
-"HumanType" : "EHT_Male",
+"Pos" : "ECP_Body",
+"HumanType" : "EHT_Both",
 "HumanSide" : "EHT_Left",
 "HumanWeapon" : "EHW_BareHand",
 "HumanDocPos" : "EHD_Glass",
@@ -1263,7 +1263,7 @@
 
 "ID" : "90",
 "ElementName" : "SHandWeapon_Shield1_1",
-"Tags" : "Weapon;SHand;Fight;Wizard;Wizard;Female;Male;Left",
+"Tags" : "Weapon;SHand;Fight;Wizard;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShield/SHandWeapon_Shield1_1",
 "Dependency" : "LShield",
 "Pos" : "ECP_Weapon",
@@ -1277,7 +1277,7 @@
 
 "ID" : "91",
 "ElementName" : "SHandWeapon_Shield1_2",
-"Tags" : "Weapon;SHand;Fight;Wizard;Wizard;Female;Male;Left",
+"Tags" : "Weapon;SHand;Fight;Wizard;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShield/SHandWeapon_Shield1_2",
 "Dependency" : "LShield",
 "Pos" : "ECP_Weapon",
@@ -1291,7 +1291,7 @@
 
 "ID" : "92",
 "ElementName" : "SHandWeapon_Shield1_3",
-"Tags" : "Weapon;SHand;Fight;Wizard;Wizard;Female;Male;Left",
+"Tags" : "Weapon;SHand;Fight;Wizard;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShield/SHandWeapon_Shield1_3",
 "Dependency" : "LShield",
 "Pos" : "ECP_Weapon",
@@ -1305,7 +1305,7 @@
 
 "ID" : "93",
 "ElementName" : "SHandWeapon_Shield2_1",
-"Tags" : "Weapon;SHand;Fight;Wizard;Wizard;Female;Male;Left",
+"Tags" : "Weapon;SHand;Fight;Wizard;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShield/SHandWeapon_Shield2_1",
 "Dependency" : "LShield",
 "Pos" : "ECP_Weapon",
@@ -1319,7 +1319,7 @@
 
 "ID" : "94",
 "ElementName" : "SHandWeapon_Shield2_2",
-"Tags" : "Weapon;SHand;Fight;Wizard;Wizard;Female;Male;Left",
+"Tags" : "Weapon;SHand;Fight;Wizard;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShield/SHandWeapon_Shield2_2",
 "Dependency" : "LShield",
 "Pos" : "ECP_Weapon",
@@ -1333,7 +1333,7 @@
 
 "ID" : "95",
 "ElementName" : "SHandWeapon_Shield2_3",
-"Tags" : "Weapon;SHand;Fight;Wizard;Wizard;Female;Male;Left",
+"Tags" : "Weapon;SHand;Fight;Wizard;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShield/SHandWeapon_Shield2_3",
 "Dependency" : "LShield",
 "Pos" : "ECP_Weapon",
@@ -1347,7 +1347,7 @@
 
 "ID" : "96",
 "ElementName" : "SHandWeapon_Shield3_1",
-"Tags" : "Weapon;SHand;Fight;Wizard;Wizard;Female;Male;Left",
+"Tags" : "Weapon;SHand;Fight;Wizard;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShield/SHandWeapon_Shield3_1",
 "Dependency" : "LShield",
 "Pos" : "ECP_Weapon",
@@ -1361,7 +1361,7 @@
 
 "ID" : "97",
 "ElementName" : "SHandWeapon_Shield3_2",
-"Tags" : "Weapon;SHand;Fight;Wizard;Wizard;Female;Male;Left",
+"Tags" : "Weapon;SHand;Fight;Wizard;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShield/SHandWeapon_Shield3_2",
 "Dependency" : "LShield",
 "Pos" : "ECP_Weapon",
@@ -1375,7 +1375,7 @@
 
 "ID" : "98",
 "ElementName" : "SHandWeapon_Shield3_3",
-"Tags" : "Weapon;SHand;Fight;Wizard;Wizard;Female;Male;Left",
+"Tags" : "Weapon;SHand;Fight;Wizard;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShield/SHandWeapon_Shield3_3",
 "Dependency" : "LShield",
 "Pos" : "ECP_Weapon",
@@ -1515,7 +1515,7 @@
 
 "ID" : "108",
 "ElementName" : "SHandWeapon_L",
-"Tags" : "Weapon;SHand;Fight;Wizard;Female;Male;Left",
+"Tags" : "Weapon;SHand;Fight;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LWeapon/SHandWeapon_L",
 "Dependency" : "LWeapon",
 "Pos" : "ECP_Weapon",
@@ -1570,9 +1570,9 @@
 {
 
 "ID" : "112",
-"ElementName" : "SHandWeapon_R1",
-"Tags" : "Weapon;SHand;Female;Male;Right",
-"ObjectPath" : "Body/RightHand/RWeapon/SHandWeapon_R1",
+"ElementName" : "SHandWeapon_R_W1",
+"Tags" : "Weapon;SHand;Wizard;Female;Male;Right",
+"ObjectPath" : "Body/RightHand/RWeapon/SHandWeapon_R_W1",
 "Dependency" : "RWeapon",
 "Pos" : "ECP_Weapon",
 "HumanType" : "EHT_Both",
@@ -1584,9 +1584,9 @@
 {
 
 "ID" : "113",
-"ElementName" : "SHandWeapon_R2",
-"Tags" : "Weapon;SHand;Female;Male;Right",
-"ObjectPath" : "Body/RightHand/RWeapon/SHandWeapon_R2",
+"ElementName" : "SHandWeapon_R1",
+"Tags" : "Weapon;SHand;Fight;Female;Male;Right",
+"ObjectPath" : "Body/RightHand/RWeapon/SHandWeapon_R1",
 "Dependency" : "RWeapon",
 "Pos" : "ECP_Weapon",
 "HumanType" : "EHT_Both",
@@ -1598,9 +1598,9 @@
 {
 
 "ID" : "114",
-"ElementName" : "SHandWeapon_R3",
-"Tags" : "Weapon;SHand;Female;Male;Right",
-"ObjectPath" : "Body/RightHand/RWeapon/SHandWeapon_R3",
+"ElementName" : "SHandWeapon_R2",
+"Tags" : "Weapon;SHand;Fight;Female;Male;Right",
+"ObjectPath" : "Body/RightHand/RWeapon/SHandWeapon_R2",
 "Dependency" : "RWeapon",
 "Pos" : "ECP_Weapon",
 "HumanType" : "EHT_Both",
@@ -1612,9 +1612,9 @@
 {
 
 "ID" : "115",
-"ElementName" : "SHandWeapon_R4",
-"Tags" : "Weapon;SHand;Female;Male;Right",
-"ObjectPath" : "Body/RightHand/RWeapon/SHandWeapon_R4",
+"ElementName" : "SHandWeapon_R3",
+"Tags" : "Weapon;SHand;Fight;Female;Male;Right",
+"ObjectPath" : "Body/RightHand/RWeapon/SHandWeapon_R3",
 "Dependency" : "RWeapon",
 "Pos" : "ECP_Weapon",
 "HumanType" : "EHT_Both",
@@ -2957,10 +2957,10 @@
 
 "ID" : "211",
 "ElementName" : "BloodLineBack",
-"Tags" : "BloodLineBack",
+"Tags" : "BloodLine",
 "ObjectPath" : "BloodLineBack",
 "Dependency" : "",
-"Pos" : "ECP_BloodLineBack",
+"Pos" : "ECP_Body",
 "HumanType" : "EHT_Both",
 "HumanSide" : "EHT_Left",
 "HumanWeapon" : "EHW_BareHand",
@@ -2971,10 +2971,10 @@
 
 "ID" : "212",
 "ElementName" : "BloodLineFront",
-"Tags" : "BloodLineFront",
+"Tags" : "BloodLine",
 "ObjectPath" : "BloodLineBack/BloodLineFront",
 "Dependency" : "BloodLineBack",
-"Pos" : "ECP_BloodLineFront",
+"Pos" : "ECP_Body",
 "HumanType" : "EHT_Both",
 "HumanSide" : "EHT_Left",
 "HumanWeapon" : "EHW_BareHand",
@@ -2988,7 +2988,7 @@
 "Tags" : "Shadow",
 "ObjectPath" : "shadow",
 "Dependency" : "",
-"Pos" : "ECP_Shadow",
+"Pos" : "ECP_Body",
 "HumanType" : "EHT_Both",
 "HumanSide" : "EHT_Left",
 "HumanWeapon" : "EHW_BareHand",

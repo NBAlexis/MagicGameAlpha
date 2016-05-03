@@ -19,21 +19,15 @@ public enum ECharactorType : byte
     ECT_Humanoid,
 }
 
-[AddComponentMenu("MGA/Avatar/ACharactorModel")]
 public class ACharactorModel : MonoBehaviour 
 {
+    #region Need to fix
 
-	// Use this for initialization
-	void Start () 
-    {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () 
-    {
-	
-	}
+    public ACharactorAnimation m_pAnim;
+    public ACharactor m_pOwner;
+    public bool m_bFixed = false;
+
+    #endregion
 
     #region Need to be override
 
@@ -52,9 +46,18 @@ public class ACharactorModel : MonoBehaviour
 
     }
 
+    virtual public void RandomizeFix()
+    {
+    }
+
     virtual public void HideAll()
     {
         
+    }
+
+    virtual public void RecoverAll()
+    {
+
     }
 
     #endregion
