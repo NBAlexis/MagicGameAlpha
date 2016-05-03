@@ -33,6 +33,13 @@ public class CHumanoidDescEditor : TMGTextDataEditor<CHumanoidDescElement>
 
         GUILayout.BeginHorizontal();
         element.m_ePos = (EHumanoidComponentPos)EditorField("Pos", element.m_ePos);
+        element.m_eHumanType = (EHumanoidType)EditorField("Type", element.m_eHumanType);
+        element.m_eHumanSide = (EHumanoidSide)EditorField("Side", element.m_eHumanSide);
+        GUILayout.EndHorizontal();
+
+        GUILayout.BeginHorizontal();
+        element.m_eHumanWeapon = (EHumanoidWeapon)EditorField("Weapon", element.m_eHumanWeapon);
+        element.m_eHumanDocPos = (EHumanoidDoc)EditorField("Doc Pos", element.m_eHumanDocPos);
         GUILayout.EndHorizontal();
     }
 

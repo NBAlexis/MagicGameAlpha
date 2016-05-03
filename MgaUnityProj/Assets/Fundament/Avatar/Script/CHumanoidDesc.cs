@@ -20,6 +20,7 @@ public enum EHumanoidWeapon : byte
     EHT_SingleHand_Fight,
     EHT_DoubleHand_Wizard,
     EHT_DoubleHand_Fight,
+    EHT_Shoot,
 }
 
 public enum EHumanoidDoc : byte
@@ -34,6 +35,7 @@ public enum EHumanoidComponentPos
     ECP_Body,
     ECP_Back,
     ECP_Head,
+    ECP_Hair,
     ECP_HeadWear,
     ECP_Feet,
     ECP_Hand,
@@ -41,7 +43,7 @@ public enum EHumanoidComponentPos
     ECP_Wing,
     ECP_BloodLineBack,
     ECP_BloodLineFront,
-    ECP_BloodLineShadow,
+    ECP_Shadow,
 }
 
 public class CHumanoidDescElement : CMGDataElement
@@ -62,6 +64,10 @@ public class CHumanoidDescElement : CMGDataElement
         sRet += Write("ObjectPath", m_sObjectPath);
         sRet += Write("Dependency", m_sDependency);
         sRet += Write("Pos", m_ePos);
+        sRet += Write("HumanType", m_eHumanType);
+        sRet += Write("HumanSide", m_eHumanSide);
+        sRet += Write("HumanWeapon", m_eHumanWeapon);
+        sRet += Write("HumanDocPos", m_eHumanDocPos);
 
         return sRet;
     }
@@ -72,6 +78,10 @@ public class CHumanoidDescElement : CMGDataElement
         m_sObjectPath = (string)GetElementValue(sTextToParse, "ObjectPath", m_sObjectPath);
         m_sDependency = (string[])GetElementValue(sTextToParse, "Dependency", m_sDependency);
         m_ePos = (EHumanoidComponentPos)GetElementValue(sTextToParse, "Pos", m_ePos);
+        m_eHumanType = (EHumanoidType)GetElementValue(sTextToParse, "HumanType", m_eHumanType);
+        m_eHumanSide = (EHumanoidSide)GetElementValue(sTextToParse, "HumanSide", m_eHumanSide);
+        m_eHumanWeapon = (EHumanoidWeapon)GetElementValue(sTextToParse, "HumanWeapon", m_eHumanWeapon);
+        m_eHumanDocPos = (EHumanoidDoc)GetElementValue(sTextToParse, "HumanDocPos", m_eHumanDocPos);
     }
 }
 
