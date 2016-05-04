@@ -491,11 +491,11 @@ public class ACharactorAnimation : MonoBehaviour
 
     public void PlayAnimation(EAnimationType eType, bool bRefresh = false)
     {
-        if (null != m_pAnim && (EAnimationType.EAT_Born == eType || EAnimationType.EAT_Die == eType))
+        if (null != m_pAnim && (EAnimationType.EAT_Born == eType || EAnimationType.EAT_Die == eType) && AnimationCullingType.AlwaysAnimate != m_pAnim.cullingType)
         {
             m_pAnim.cullingType = AnimationCullingType.AlwaysAnimate;
         }
-        else if (null != m_pAnim)
+        else if (null != m_pAnim && AnimationCullingType.BasedOnRenderers != m_pAnim.cullingType)
         {
             m_pAnim.cullingType = AnimationCullingType.BasedOnRenderers;
         }
