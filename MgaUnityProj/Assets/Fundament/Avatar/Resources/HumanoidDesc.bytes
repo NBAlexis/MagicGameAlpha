@@ -2998,9 +2998,9 @@
 {
 
 "ID" : "214",
-"ElementName" : "BloodLineFront",
+"ElementName" : "BloodLineFront1",
 "Tags" : "BloodLineFront",
-"ObjectPath" : "BloodLineBack/BloodLineFront",
+"ObjectPath" : "BloodLineBack/BloodLineFront1",
 "Dependency" : "BloodLineBack",
 "Pos" : "ECP_BloodLineFront",
 "HumanType" : "EHT_Both",
@@ -3012,6 +3012,104 @@
 {
 
 "ID" : "215",
+"ElementName" : "BloodLineFront2",
+"Tags" : "BloodLineFront",
+"ObjectPath" : "BloodLineBack/BloodLineFront2",
+"Dependency" : "BloodLineBack",
+"Pos" : "ECP_BloodLineFront",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+"HumanDocPos" : "EHD_Glass",
+
+}
+{
+
+"ID" : "216",
+"ElementName" : "BloodLineFront3",
+"Tags" : "BloodLineFront",
+"ObjectPath" : "BloodLineBack/BloodLineFront3",
+"Dependency" : "BloodLineBack",
+"Pos" : "ECP_BloodLineFront",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+"HumanDocPos" : "EHD_Glass",
+
+}
+{
+
+"ID" : "217",
+"ElementName" : "BloodLineFront4",
+"Tags" : "BloodLineFront",
+"ObjectPath" : "BloodLineBack/BloodLineFront4",
+"Dependency" : "BloodLineBack",
+"Pos" : "ECP_BloodLineFront",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+"HumanDocPos" : "EHD_Glass",
+
+}
+{
+
+"ID" : "218",
+"ElementName" : "BloodLineFront5",
+"Tags" : "BloodLineFront",
+"ObjectPath" : "BloodLineBack/BloodLineFront5",
+"Dependency" : "BloodLineBack",
+"Pos" : "ECP_BloodLineFront",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+"HumanDocPos" : "EHD_Glass",
+
+}
+{
+
+"ID" : "219",
+"ElementName" : "BloodLineFront6",
+"Tags" : "BloodLineFront",
+"ObjectPath" : "BloodLineBack/BloodLineFront6",
+"Dependency" : "BloodLineBack",
+"Pos" : "ECP_BloodLineFront",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+"HumanDocPos" : "EHD_Glass",
+
+}
+{
+
+"ID" : "220",
+"ElementName" : "BloodLineFront7",
+"Tags" : "BloodLineFront",
+"ObjectPath" : "BloodLineBack/BloodLineFront7",
+"Dependency" : "BloodLineBack",
+"Pos" : "ECP_BloodLineFront",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+"HumanDocPos" : "EHD_Glass",
+
+}
+{
+
+"ID" : "221",
+"ElementName" : "BloodLineFront8",
+"Tags" : "BloodLineFront",
+"ObjectPath" : "BloodLineBack/BloodLineFront8",
+"Dependency" : "BloodLineBack",
+"Pos" : "ECP_BloodLineFront",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+"HumanDocPos" : "EHD_Glass",
+
+}
+{
+
+"ID" : "222",
 "ElementName" : "Shadow",
 "Tags" : "Shadow",
 "ObjectPath" : "Shadow",

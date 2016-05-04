@@ -47,7 +47,7 @@ public class ACharactorAnimation : MonoBehaviour
     public Animation m_pTurrentAnim = null;
 
     public EAnimationState m_eCurrentAnimState = EAnimationState.EAS_Avatar;
-    public EAnimationType m_eAnimType = EAnimationType.EAT_Idle;
+    public EAnimationType m_eAnimType = EAnimationType.EAT_None;
 
     public ACharactor m_pOwner;
     public ACharactorModel m_pModel;

@@ -3,8 +3,9 @@ using System.Collections;
 
 public class TestCharactor : MonoBehaviour
 {
-    public const int m_iMaxCount = 10;
-    public const int m_iPrefabCount = 1;
+    public const int m_iMaxCount = 1024;
+    public const int m_iPrefabCount = 30;
+
     public ACharactor m_pModel;
     public Transform m_pLookingAt;
     public BezierLine m_pBezier;
@@ -20,26 +21,24 @@ public class TestCharactor : MonoBehaviour
         GameObject[] cs = new GameObject[m_iMaxCount];
         for (int i = 0; i < m_iMaxCount; ++i)
         {
-            float fX = 1.0f * (i / 64) - 31.5f;
-            float fY = 1.0f * (i % 64) - 31.5f;
+            float fX = 2.0f * (i / 32) - 31.0f;
+            float fY = 2.0f * (i % 32) - 31.0f;
 
             if (0 == i)
             {
                 cs[0] = m_pModel.gameObject;
                 cs[i].GetComponent<ACharactor>().m_pModel.Randomize(true);
-                cs[i].GetComponent<ACharactor>()
-                    .m_pModel.SetCamp((ECharactorCamp)Random.Range(0, (int)ECharactorCamp.ECC_Max));
-                cs[i].GetComponent<ACharactor>()
-                    .m_pModel.SetVisible((ECharactorVisible)Random.Range(0, (int)ECharactorVisible.ECV_None));
+                cs[i].GetComponent<ACharactor>().m_pModel.SetCamp(ECharactorCamp.ECC_1);
+                //cs[i].GetComponent<ACharactor>().m_pModel.SetVisible(Random.Range(0.0f, 1.0f) > 0.8f ? ECharactorVisible.ECV_InVisible : ECharactorVisible.ECV_Visible);
+                cs[i].GetComponent<ACharactor>().m_pModel.SetVisible(ECharactorVisible.ECV_Visible);
             }
             else if (i < m_iPrefabCount)
             {
                 cs[i] = Instantiate(m_pModel.gameObject);
                 cs[i].GetComponent<ACharactor>().m_pModel.Randomize(true);
-                cs[i].GetComponent<ACharactor>()
-                    .m_pModel.SetCamp((ECharactorCamp) Random.Range(0, (int) ECharactorCamp.ECC_Max));
-                cs[i].GetComponent<ACharactor>()
-                    .m_pModel.SetVisible((ECharactorVisible) Random.Range(0, (int) ECharactorVisible.ECV_None));
+                cs[i].GetComponent<ACharactor>().m_pModel.SetCamp(ECharactorCamp.ECC_1);
+                //cs[i].GetComponent<ACharactor>().m_pModel.SetVisible(Random.Range(0.0f, 1.0f) > 0.8f ? ECharactorVisible.ECV_InVisible : ECharactorVisible.ECV_Visible);
+                cs[i].GetComponent<ACharactor>().m_pModel.SetVisible(ECharactorVisible.ECV_Visible);
             }
             else
             {
@@ -53,7 +52,7 @@ public class TestCharactor : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-	    m_fCameraRate += Time.deltaTime*0.03f;
+	    m_fCameraRate += Time.deltaTime*0.02f;
 	    float fRate = Mathf.PingPong(m_fCameraRate, 1.0f);
 	    Vector3 pos = m_pBezier.GetLocation(fRate);
 

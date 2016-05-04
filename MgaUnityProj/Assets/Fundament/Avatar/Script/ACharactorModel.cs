@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngineInternal;
 
 public enum ECharactorAttackType : byte
 {
@@ -84,7 +85,7 @@ public class ACharactorModel : MonoBehaviour
 
     }
 
-    virtual public void RandomizeFix()
+    virtual public void Fix()
     {
     }
 

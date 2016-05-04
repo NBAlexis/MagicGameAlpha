@@ -5,12 +5,12 @@ Properties {
 }
 
 SubShader {
-	Tags {"Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent"}
-	//Tags {"RenderType"="Opaque"}
+	//Tags {"Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent"}
+	Tags {"RenderType"="Opaque"}
 	//LOD 100
 	
 	//ZWrite Off
-	Blend SrcAlpha OneMinusSrcAlpha 
+	//Blend SrcAlpha OneMinusSrcAlpha 
 
 	Pass {  
 		CGPROGRAM
@@ -47,12 +47,10 @@ SubShader {
 			fixed4 frag (v2f i) : SV_Target
 			{
 				fixed4 col = tex2D(_MainTex, i.texcoord);
-				fixed aofrgb = sign(col.a + col.r + col.g + col.b - 0.2f) * 0.5f + 0.5f;
-				col.rgb = col.rgb * aofrgb + _ClothColor.rgb * (1.0f - aofrgb);
-				col.a = col.a * aofrgb + (1.0f - aofrgb);
-				col.a = col.a * _ClothColor.a;
+				col.rgb = col.rgb * col.a + _ClothColor.rgb * (1.0f - col.a);
 
 				UNITY_APPLY_FOG(i.fogCoord, col);
+				UNITY_OPAQUE_ALPHA(col.a);
 				return col;
 			}
 		ENDCG
