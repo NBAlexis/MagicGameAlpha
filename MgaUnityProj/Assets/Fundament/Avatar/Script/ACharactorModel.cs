@@ -51,6 +51,9 @@ public class ACharactorModel : MonoBehaviour
 
     public ECharactorVisible m_eVisible = ECharactorVisible.ECV_None;
     public ECharactorCamp m_eCamp = ECharactorCamp.ECC_Max;
+    public ECharactorAttackType m_eAttackType = ECharactorAttackType.ECAT_Mele;
+    public ECharactorMoveType m_eMoveType = ECharactorMoveType.ECMT_Ground;
+    public ECharactorType m_eCharactorType = ECharactorType.ECT_Humanoid;
 
     #endregion
 
@@ -66,7 +69,7 @@ public class ACharactorModel : MonoBehaviour
 
     }
 
-    virtual public void Randomize()
+    virtual public void Randomize(bool bFix = false)
     {
 
     }
