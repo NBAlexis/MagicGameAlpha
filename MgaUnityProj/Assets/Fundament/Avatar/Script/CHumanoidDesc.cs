@@ -48,6 +48,15 @@ public enum EHumanoidComponentPos
     ECP_Shadow,
 }
 
+public enum EHumanoidSize
+{
+    EHS_Normal,
+    EHS_Small,
+    EHS_Big,
+    EHS_ThinTall,
+    EHS_Fat,
+}
+
 public class CHumanoidDescElement : CMGDataElement
 {
     public string m_sObjectPath = "";

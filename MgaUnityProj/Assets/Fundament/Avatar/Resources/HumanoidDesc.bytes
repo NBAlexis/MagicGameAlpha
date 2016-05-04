@@ -1192,48 +1192,6 @@
 {
 
 "ID" : "85",
-"ElementName" : "C_GH_Head_M3Hair1",
-"Tags" : "Hair;Male",
-"ObjectPath" : "Body/Head/C_GH_Head_M3/C_GH_Head_M3Hair1",
-"Dependency" : "C_GH_Head_M3",
-"Pos" : "ECP_HeadWear",
-"HumanType" : "EHT_Male",
-"HumanSide" : "EHT_Left",
-"HumanWeapon" : "EHW_BareHand",
-"HumanDocPos" : "EHD_Hair",
-
-}
-{
-
-"ID" : "86",
-"ElementName" : "C_GH_Head_M3Hair2",
-"Tags" : "Hair;Male",
-"ObjectPath" : "Body/Head/C_GH_Head_M3/C_GH_Head_M3Hair2",
-"Dependency" : "C_GH_Head_M3",
-"Pos" : "ECP_HeadWear",
-"HumanType" : "EHT_Male",
-"HumanSide" : "EHT_Left",
-"HumanWeapon" : "EHW_BareHand",
-"HumanDocPos" : "EHD_Hair",
-
-}
-{
-
-"ID" : "87",
-"ElementName" : "C_GH_Head_M3Hair3",
-"Tags" : "Hair;Male",
-"ObjectPath" : "Body/Head/C_GH_Head_M3/C_GH_Head_M3Hair3",
-"Dependency" : "C_GH_Head_M3",
-"Pos" : "ECP_HeadWear",
-"HumanType" : "EHT_Male",
-"HumanSide" : "EHT_Left",
-"HumanWeapon" : "EHW_BareHand",
-"HumanDocPos" : "EHD_Hair",
-
-}
-{
-
-"ID" : "88",
 "ElementName" : "C_GH_Head_M4",
 "Tags" : "Head;Male",
 "ObjectPath" : "Body/Head/C_GH_Head_M4",
@@ -1247,13 +1205,13 @@
 }
 {
 
-"ID" : "89",
-"ElementName" : "Face",
-"Tags" : "Male;Head",
-"ObjectPath" : "Body/Head/C_GH_Head_M4/Face",
-"Dependency" : "C_GH_Head_M4",
-"Pos" : "ECP_Body",
-"HumanType" : "EHT_Both",
+"ID" : "86",
+"ElementName" : "C_GH_Head_M5",
+"Tags" : "Head;Male",
+"ObjectPath" : "Body/Head/C_GH_Head_M5",
+"Dependency" : "Head",
+"Pos" : "ECP_Head",
+"HumanType" : "EHT_Male",
 "HumanSide" : "EHT_Left",
 "HumanWeapon" : "EHW_BareHand",
 "HumanDocPos" : "EHD_Glass",
@@ -1261,7 +1219,77 @@
 }
 {
 
+"ID" : "87",
+"ElementName" : "C_GH_Head_M5Hair1",
+"Tags" : "Hair;Male",
+"ObjectPath" : "Body/Head/C_GH_Head_M5/C_GH_Head_M5Hair1",
+"Dependency" : "C_GH_Head_M5",
+"Pos" : "ECP_HeadWear",
+"HumanType" : "EHT_Male",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+"HumanDocPos" : "EHD_Hair",
+
+}
+{
+
+"ID" : "88",
+"ElementName" : "C_GH_Head_M5Hair2",
+"Tags" : "Hair;Male",
+"ObjectPath" : "Body/Head/C_GH_Head_M5/C_GH_Head_M5Hair2",
+"Dependency" : "C_GH_Head_M5",
+"Pos" : "ECP_HeadWear",
+"HumanType" : "EHT_Male",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+"HumanDocPos" : "EHD_Hair",
+
+}
+{
+
+"ID" : "89",
+"ElementName" : "C_GH_Head_M5Hair3",
+"Tags" : "Hair;Male",
+"ObjectPath" : "Body/Head/C_GH_Head_M5/C_GH_Head_M5Hair3",
+"Dependency" : "C_GH_Head_M5",
+"Pos" : "ECP_HeadWear",
+"HumanType" : "EHT_Male",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+"HumanDocPos" : "EHD_Hair",
+
+}
+{
+
 "ID" : "90",
+"ElementName" : "C_GH_Head_M6",
+"Tags" : "Head;Male",
+"ObjectPath" : "Body/Head/C_GH_Head_M6",
+"Dependency" : "Head",
+"Pos" : "ECP_Head",
+"HumanType" : "EHT_Male",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+"HumanDocPos" : "EHD_Glass",
+
+}
+{
+
+"ID" : "91",
+"ElementName" : "C_GH_Head_M6Face",
+"Tags" : "Head;Male",
+"ObjectPath" : "Body/Head/C_GH_Head_M6/C_GH_Head_M6Face",
+"Dependency" : "C_GH_Head_M6",
+"Pos" : "ECP_Head",
+"HumanType" : "EHT_Male",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+"HumanDocPos" : "EHD_Glass",
+
+}
+{
+
+"ID" : "92",
 "ElementName" : "SHandWeapon_Shield1_1",
 "Tags" : "Weapon;SHand;Fight;Wizard;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShield/SHandWeapon_Shield1_1",
@@ -1275,7 +1303,7 @@
 }
 {
 
-"ID" : "91",
+"ID" : "93",
 "ElementName" : "SHandWeapon_Shield1_2",
 "Tags" : "Weapon;SHand;Fight;Wizard;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShield/SHandWeapon_Shield1_2",
@@ -1289,7 +1317,7 @@
 }
 {
 
-"ID" : "92",
+"ID" : "94",
 "ElementName" : "SHandWeapon_Shield1_3",
 "Tags" : "Weapon;SHand;Fight;Wizard;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShield/SHandWeapon_Shield1_3",
@@ -1303,7 +1331,7 @@
 }
 {
 
-"ID" : "93",
+"ID" : "95",
 "ElementName" : "SHandWeapon_Shield2_1",
 "Tags" : "Weapon;SHand;Fight;Wizard;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShield/SHandWeapon_Shield2_1",
@@ -1317,7 +1345,7 @@
 }
 {
 
-"ID" : "94",
+"ID" : "96",
 "ElementName" : "SHandWeapon_Shield2_2",
 "Tags" : "Weapon;SHand;Fight;Wizard;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShield/SHandWeapon_Shield2_2",
@@ -1331,7 +1359,7 @@
 }
 {
 
-"ID" : "95",
+"ID" : "97",
 "ElementName" : "SHandWeapon_Shield2_3",
 "Tags" : "Weapon;SHand;Fight;Wizard;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShield/SHandWeapon_Shield2_3",
@@ -1345,7 +1373,7 @@
 }
 {
 
-"ID" : "96",
+"ID" : "98",
 "ElementName" : "SHandWeapon_Shield3_1",
 "Tags" : "Weapon;SHand;Fight;Wizard;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShield/SHandWeapon_Shield3_1",
@@ -1359,7 +1387,7 @@
 }
 {
 
-"ID" : "97",
+"ID" : "99",
 "ElementName" : "SHandWeapon_Shield3_2",
 "Tags" : "Weapon;SHand;Fight;Wizard;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShield/SHandWeapon_Shield3_2",
@@ -1373,7 +1401,7 @@
 }
 {
 
-"ID" : "98",
+"ID" : "100",
 "ElementName" : "SHandWeapon_Shield3_3",
 "Tags" : "Weapon;SHand;Fight;Wizard;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShield/SHandWeapon_Shield3_3",
@@ -1387,7 +1415,7 @@
 }
 {
 
-"ID" : "99",
+"ID" : "101",
 "ElementName" : "Weapon_Shoot_L1_1",
 "Tags" : "Weapon;Shoot;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShoot/Weapon_Shoot_L1_1",
@@ -1401,7 +1429,7 @@
 }
 {
 
-"ID" : "100",
+"ID" : "102",
 "ElementName" : "Weapon_Shoot_L1_2",
 "Tags" : "Weapon;Shoot;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShoot/Weapon_Shoot_L1_2",
@@ -1415,7 +1443,7 @@
 }
 {
 
-"ID" : "101",
+"ID" : "103",
 "ElementName" : "Weapon_Shoot_L1_3",
 "Tags" : "Weapon;Shoot;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShoot/Weapon_Shoot_L1_3",
@@ -1429,7 +1457,7 @@
 }
 {
 
-"ID" : "102",
+"ID" : "104",
 "ElementName" : "Weapon_Shoot_L2_1",
 "Tags" : "Weapon;Shoot;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShoot/Weapon_Shoot_L2_1",
@@ -1443,7 +1471,7 @@
 }
 {
 
-"ID" : "103",
+"ID" : "105",
 "ElementName" : "Weapon_Shoot_L2_2",
 "Tags" : "Weapon;Shoot;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShoot/Weapon_Shoot_L2_2",
@@ -1457,7 +1485,7 @@
 }
 {
 
-"ID" : "104",
+"ID" : "106",
 "ElementName" : "Weapon_Shoot_L2_3",
 "Tags" : "Weapon;Shoot;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShoot/Weapon_Shoot_L2_3",
@@ -1471,7 +1499,7 @@
 }
 {
 
-"ID" : "105",
+"ID" : "107",
 "ElementName" : "Weapon_Shoot_L3_1",
 "Tags" : "Weapon;Shoot;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShoot/Weapon_Shoot_L3_1",
@@ -1485,7 +1513,7 @@
 }
 {
 
-"ID" : "106",
+"ID" : "108",
 "ElementName" : "Weapon_Shoot_L3_2",
 "Tags" : "Weapon;Shoot;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShoot/Weapon_Shoot_L3_2",
@@ -1499,7 +1527,7 @@
 }
 {
 
-"ID" : "107",
+"ID" : "109",
 "ElementName" : "Weapon_Shoot_L3_3",
 "Tags" : "Weapon;Shoot;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LShoot/Weapon_Shoot_L3_3",
@@ -1513,7 +1541,7 @@
 }
 {
 
-"ID" : "108",
+"ID" : "110",
 "ElementName" : "SHandWeapon_L",
 "Tags" : "Weapon;SHand;Fight;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/LWeapon/SHandWeapon_L",
@@ -1527,7 +1555,7 @@
 }
 {
 
-"ID" : "109",
+"ID" : "111",
 "ElementName" : "C_GH_HandL",
 "Tags" : "Hand;Female;Male;Left",
 "ObjectPath" : "Body/LeftHand/C_GH_HandL",
@@ -1541,7 +1569,7 @@
 }
 {
 
-"ID" : "110",
+"ID" : "112",
 "ElementName" : "LWing1",
 "Tags" : "Wing;Female;Male;Left",
 "ObjectPath" : "Body/LWing/LWing1",
@@ -1555,7 +1583,7 @@
 }
 {
 
-"ID" : "111",
+"ID" : "113",
 "ElementName" : "LWing2",
 "Tags" : "Wing;Female;Male;Left",
 "ObjectPath" : "Body/LWing/LWing2",
@@ -1569,7 +1597,7 @@
 }
 {
 
-"ID" : "112",
+"ID" : "114",
 "ElementName" : "SHandWeapon_R_W1",
 "Tags" : "Weapon;SHand;Wizard;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/RWeapon/SHandWeapon_R_W1",
@@ -1583,7 +1611,7 @@
 }
 {
 
-"ID" : "113",
+"ID" : "115",
 "ElementName" : "SHandWeapon_R1",
 "Tags" : "Weapon;SHand;Fight;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/RWeapon/SHandWeapon_R1",
@@ -1597,7 +1625,7 @@
 }
 {
 
-"ID" : "114",
+"ID" : "116",
 "ElementName" : "SHandWeapon_R2",
 "Tags" : "Weapon;SHand;Fight;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/RWeapon/SHandWeapon_R2",
@@ -1611,7 +1639,7 @@
 }
 {
 
-"ID" : "115",
+"ID" : "117",
 "ElementName" : "SHandWeapon_R3",
 "Tags" : "Weapon;SHand;Fight;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/RWeapon/SHandWeapon_R3",
@@ -1625,7 +1653,7 @@
 }
 {
 
-"ID" : "116",
+"ID" : "118",
 "ElementName" : "Weapon_Shoot_R1_1",
 "Tags" : "Weapon;Shoot;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/RShoot/Weapon_Shoot_R1_1",
@@ -1639,7 +1667,7 @@
 }
 {
 
-"ID" : "117",
+"ID" : "119",
 "ElementName" : "Weapon_Shoot_R1_2",
 "Tags" : "Weapon;Shoot;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/RShoot/Weapon_Shoot_R1_2",
@@ -1653,7 +1681,7 @@
 }
 {
 
-"ID" : "118",
+"ID" : "120",
 "ElementName" : "Weapon_Shoot_R1_3",
 "Tags" : "Weapon;Shoot;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/RShoot/Weapon_Shoot_R1_3",
@@ -1667,7 +1695,7 @@
 }
 {
 
-"ID" : "119",
+"ID" : "121",
 "ElementName" : "Weapon_Shoot_R2_1",
 "Tags" : "Weapon;Shoot;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/RShoot/Weapon_Shoot_R2_1",
@@ -1681,7 +1709,7 @@
 }
 {
 
-"ID" : "120",
+"ID" : "122",
 "ElementName" : "Weapon_Shoot_R2_2",
 "Tags" : "Weapon;Shoot;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/RShoot/Weapon_Shoot_R2_2",
@@ -1695,7 +1723,7 @@
 }
 {
 
-"ID" : "121",
+"ID" : "123",
 "ElementName" : "Weapon_Shoot_R2_3",
 "Tags" : "Weapon;Shoot;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/RShoot/Weapon_Shoot_R2_3",
@@ -1709,7 +1737,7 @@
 }
 {
 
-"ID" : "122",
+"ID" : "124",
 "ElementName" : "DHandWeapon_Sword1",
 "Tags" : "Weapon;DHand;Fight;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/DHandWeapn/DHandWeapon_Sword1",
@@ -1723,7 +1751,7 @@
 }
 {
 
-"ID" : "123",
+"ID" : "125",
 "ElementName" : "DHandWeapon_Sword2",
 "Tags" : "Weapon;DHand;Fight;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/DHandWeapn/DHandWeapon_Sword2",
@@ -1737,7 +1765,7 @@
 }
 {
 
-"ID" : "124",
+"ID" : "126",
 "ElementName" : "DHandWeapon_Stick1_1",
 "Tags" : "Weapon;DHand;Wizard;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/DHandWeapn/DHandWeapon_Stick1_1",
@@ -1751,7 +1779,7 @@
 }
 {
 
-"ID" : "125",
+"ID" : "127",
 "ElementName" : "DHandWeapon_Stick1_2",
 "Tags" : "Weapon;DHand;Wizard;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/DHandWeapn/DHandWeapon_Stick1_2",
@@ -1765,7 +1793,7 @@
 }
 {
 
-"ID" : "126",
+"ID" : "128",
 "ElementName" : "DHandWeapon_Stick1_3",
 "Tags" : "Weapon;DHand;Wizard;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/DHandWeapn/DHandWeapon_Stick1_3",
@@ -1779,7 +1807,7 @@
 }
 {
 
-"ID" : "127",
+"ID" : "129",
 "ElementName" : "DHandWeapon_Stick1_4",
 "Tags" : "Weapon;DHand;Wizard;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/DHandWeapn/DHandWeapon_Stick1_4",
@@ -1793,7 +1821,7 @@
 }
 {
 
-"ID" : "128",
+"ID" : "130",
 "ElementName" : "DHandWeapon_Stick2_1",
 "Tags" : "Weapon;DHand;Wizard;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/DHandWeapn/DHandWeapon_Stick2_1",
@@ -1807,7 +1835,7 @@
 }
 {
 
-"ID" : "129",
+"ID" : "131",
 "ElementName" : "DHandWeapon_Stick2_2",
 "Tags" : "Weapon;DHand;Wizard;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/DHandWeapn/DHandWeapon_Stick2_2",
@@ -1821,7 +1849,7 @@
 }
 {
 
-"ID" : "130",
+"ID" : "132",
 "ElementName" : "DHandWeapon_Stick2_3",
 "Tags" : "Weapon;DHand;Wizard;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/DHandWeapn/DHandWeapon_Stick2_3",
@@ -1835,7 +1863,7 @@
 }
 {
 
-"ID" : "131",
+"ID" : "133",
 "ElementName" : "DHandWeapon_Stick2_4",
 "Tags" : "Weapon;DHand;Wizard;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/DHandWeapn/DHandWeapon_Stick2_4",
@@ -1849,7 +1877,7 @@
 }
 {
 
-"ID" : "132",
+"ID" : "134",
 "ElementName" : "DHandWeapon_Stick3_1",
 "Tags" : "Weapon;DHand;Wizard;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/DHandWeapn/DHandWeapon_Stick3_1",
@@ -1863,7 +1891,7 @@
 }
 {
 
-"ID" : "133",
+"ID" : "135",
 "ElementName" : "DHandWeapon_Stick3_2",
 "Tags" : "Weapon;DHand;Wizard;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/DHandWeapn/DHandWeapon_Stick3_2",
@@ -1877,7 +1905,7 @@
 }
 {
 
-"ID" : "134",
+"ID" : "136",
 "ElementName" : "DHandWeapon_Stick3_3",
 "Tags" : "Weapon;DHand;Wizard;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/DHandWeapn/DHandWeapon_Stick3_3",
@@ -1891,7 +1919,7 @@
 }
 {
 
-"ID" : "135",
+"ID" : "137",
 "ElementName" : "DHandWeapon_Stick3_4",
 "Tags" : "Weapon;DHand;Wizard;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/DHandWeapn/DHandWeapon_Stick3_4",
@@ -1905,7 +1933,7 @@
 }
 {
 
-"ID" : "136",
+"ID" : "138",
 "ElementName" : "C_GH_HandR",
 "Tags" : "Hand;Female;Male;Right",
 "ObjectPath" : "Body/RightHand/C_GH_HandR",
@@ -1919,7 +1947,7 @@
 }
 {
 
-"ID" : "137",
+"ID" : "139",
 "ElementName" : "RWing1",
 "Tags" : "Wing;Female;Male;Right",
 "ObjectPath" : "Body/RWing/RWing1",
@@ -1933,7 +1961,7 @@
 }
 {
 
-"ID" : "138",
+"ID" : "140",
 "ElementName" : "RWing2",
 "Tags" : "Wing;Female;Male;Right",
 "ObjectPath" : "Body/RWing/RWing2",
@@ -1947,7 +1975,7 @@
 }
 {
 
-"ID" : "139",
+"ID" : "141",
 "ElementName" : "C_GH_Body_F1_1",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F1_1",
@@ -1961,7 +1989,7 @@
 }
 {
 
-"ID" : "140",
+"ID" : "142",
 "ElementName" : "C_GH_Body_F1_2",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F1_2",
@@ -1975,7 +2003,7 @@
 }
 {
 
-"ID" : "141",
+"ID" : "143",
 "ElementName" : "C_GH_Body_F1_3",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F1_3",
@@ -1989,7 +2017,7 @@
 }
 {
 
-"ID" : "142",
+"ID" : "144",
 "ElementName" : "C_GH_Body_F1_4",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F1_4",
@@ -2003,7 +2031,7 @@
 }
 {
 
-"ID" : "143",
+"ID" : "145",
 "ElementName" : "C_GH_Body_F1_5",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F1_5",
@@ -2017,7 +2045,7 @@
 }
 {
 
-"ID" : "144",
+"ID" : "146",
 "ElementName" : "C_GH_Body_F1_6",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F1_6",
@@ -2031,7 +2059,7 @@
 }
 {
 
-"ID" : "145",
+"ID" : "147",
 "ElementName" : "C_GH_Body_F1_7",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F1_7",
@@ -2045,7 +2073,7 @@
 }
 {
 
-"ID" : "146",
+"ID" : "148",
 "ElementName" : "C_GH_Body_F1_8",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F1_8",
@@ -2059,7 +2087,7 @@
 }
 {
 
-"ID" : "147",
+"ID" : "149",
 "ElementName" : "C_GH_Body_F1_9",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F1_9",
@@ -2073,7 +2101,7 @@
 }
 {
 
-"ID" : "148",
+"ID" : "150",
 "ElementName" : "C_GH_Body_F1_10",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F1_10",
@@ -2087,7 +2115,7 @@
 }
 {
 
-"ID" : "149",
+"ID" : "151",
 "ElementName" : "C_GH_Body_F1_11",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F1_11",
@@ -2101,7 +2129,7 @@
 }
 {
 
-"ID" : "150",
+"ID" : "152",
 "ElementName" : "C_GH_Body_F1_12",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F1_12",
@@ -2115,7 +2143,7 @@
 }
 {
 
-"ID" : "151",
+"ID" : "153",
 "ElementName" : "C_GH_Body_F1_13",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F1_13",
@@ -2129,7 +2157,7 @@
 }
 {
 
-"ID" : "152",
+"ID" : "154",
 "ElementName" : "C_GH_Body_F1_14",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F1_14",
@@ -2143,7 +2171,7 @@
 }
 {
 
-"ID" : "153",
+"ID" : "155",
 "ElementName" : "C_GH_Body_F2_1",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F2_1",
@@ -2157,7 +2185,7 @@
 }
 {
 
-"ID" : "154",
+"ID" : "156",
 "ElementName" : "C_GH_Body_F2_2",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F2_2",
@@ -2171,7 +2199,7 @@
 }
 {
 
-"ID" : "155",
+"ID" : "157",
 "ElementName" : "C_GH_Body_F2_3",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F2_3",
@@ -2185,7 +2213,7 @@
 }
 {
 
-"ID" : "156",
+"ID" : "158",
 "ElementName" : "C_GH_Body_F2_4",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F2_4",
@@ -2199,7 +2227,7 @@
 }
 {
 
-"ID" : "157",
+"ID" : "159",
 "ElementName" : "C_GH_Body_F2_5",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F2_5",
@@ -2213,7 +2241,7 @@
 }
 {
 
-"ID" : "158",
+"ID" : "160",
 "ElementName" : "C_GH_Body_F2_6",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F2_6",
@@ -2227,7 +2255,7 @@
 }
 {
 
-"ID" : "159",
+"ID" : "161",
 "ElementName" : "C_GH_Body_F2_7",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F2_7",
@@ -2241,7 +2269,7 @@
 }
 {
 
-"ID" : "160",
+"ID" : "162",
 "ElementName" : "C_GH_Body_F2_8",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F2_8",
@@ -2255,7 +2283,7 @@
 }
 {
 
-"ID" : "161",
+"ID" : "163",
 "ElementName" : "C_GH_Body_F2_9",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F2_9",
@@ -2269,7 +2297,7 @@
 }
 {
 
-"ID" : "162",
+"ID" : "164",
 "ElementName" : "C_GH_Body_F2_10",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F2_10",
@@ -2283,7 +2311,7 @@
 }
 {
 
-"ID" : "163",
+"ID" : "165",
 "ElementName" : "C_GH_Body_F2_11",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F2_11",
@@ -2297,7 +2325,7 @@
 }
 {
 
-"ID" : "164",
+"ID" : "166",
 "ElementName" : "C_GH_Body_F2_12",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F2_12",
@@ -2311,7 +2339,7 @@
 }
 {
 
-"ID" : "165",
+"ID" : "167",
 "ElementName" : "C_GH_Body_F2_13",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F2_13",
@@ -2325,7 +2353,7 @@
 }
 {
 
-"ID" : "166",
+"ID" : "168",
 "ElementName" : "C_GH_Body_F2_14",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F2_14",
@@ -2339,7 +2367,7 @@
 }
 {
 
-"ID" : "167",
+"ID" : "169",
 "ElementName" : "C_GH_Body_F3_1",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F3_1",
@@ -2353,7 +2381,7 @@
 }
 {
 
-"ID" : "168",
+"ID" : "170",
 "ElementName" : "C_GH_Body_F3_2",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F3_2",
@@ -2367,7 +2395,7 @@
 }
 {
 
-"ID" : "169",
+"ID" : "171",
 "ElementName" : "C_GH_Body_F3_3",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F3_3",
@@ -2381,7 +2409,7 @@
 }
 {
 
-"ID" : "170",
+"ID" : "172",
 "ElementName" : "C_GH_Body_F3_4",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F3_4",
@@ -2395,7 +2423,7 @@
 }
 {
 
-"ID" : "171",
+"ID" : "173",
 "ElementName" : "C_GH_Body_F3_5",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F3_5",
@@ -2409,7 +2437,7 @@
 }
 {
 
-"ID" : "172",
+"ID" : "174",
 "ElementName" : "C_GH_Body_F3_6",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F3_6",
@@ -2423,7 +2451,7 @@
 }
 {
 
-"ID" : "173",
+"ID" : "175",
 "ElementName" : "C_GH_Body_F3_7",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F3_7",
@@ -2437,7 +2465,7 @@
 }
 {
 
-"ID" : "174",
+"ID" : "176",
 "ElementName" : "C_GH_Body_F3_8",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F3_8",
@@ -2451,7 +2479,7 @@
 }
 {
 
-"ID" : "175",
+"ID" : "177",
 "ElementName" : "C_GH_Body_F3_9",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F3_9",
@@ -2465,7 +2493,7 @@
 }
 {
 
-"ID" : "176",
+"ID" : "178",
 "ElementName" : "C_GH_Body_F3_10",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F3_10",
@@ -2479,7 +2507,7 @@
 }
 {
 
-"ID" : "177",
+"ID" : "179",
 "ElementName" : "C_GH_Body_F3_11",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F3_11",
@@ -2493,7 +2521,7 @@
 }
 {
 
-"ID" : "178",
+"ID" : "180",
 "ElementName" : "C_GH_Body_F3_12",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F3_12",
@@ -2507,7 +2535,7 @@
 }
 {
 
-"ID" : "179",
+"ID" : "181",
 "ElementName" : "C_GH_Body_F3_13",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F3_13",
@@ -2521,7 +2549,7 @@
 }
 {
 
-"ID" : "180",
+"ID" : "182",
 "ElementName" : "C_GH_Body_F3_14",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F3_14",
@@ -2535,7 +2563,7 @@
 }
 {
 
-"ID" : "181",
+"ID" : "183",
 "ElementName" : "C_GH_Body_F4_1",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F4_1",
@@ -2549,7 +2577,7 @@
 }
 {
 
-"ID" : "182",
+"ID" : "184",
 "ElementName" : "C_GH_Body_F4_2",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F4_2",
@@ -2563,7 +2591,7 @@
 }
 {
 
-"ID" : "183",
+"ID" : "185",
 "ElementName" : "C_GH_Body_F4_3",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F4_3",
@@ -2577,7 +2605,7 @@
 }
 {
 
-"ID" : "184",
+"ID" : "186",
 "ElementName" : "C_GH_Body_F4_4",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F4_4",
@@ -2591,7 +2619,7 @@
 }
 {
 
-"ID" : "185",
+"ID" : "187",
 "ElementName" : "C_GH_Body_F4_5",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F4_5",
@@ -2605,7 +2633,7 @@
 }
 {
 
-"ID" : "186",
+"ID" : "188",
 "ElementName" : "C_GH_Body_F4_6",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F4_6",
@@ -2619,7 +2647,7 @@
 }
 {
 
-"ID" : "187",
+"ID" : "189",
 "ElementName" : "C_GH_Body_F4_7",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F4_7",
@@ -2633,7 +2661,7 @@
 }
 {
 
-"ID" : "188",
+"ID" : "190",
 "ElementName" : "C_GH_Body_F4_8",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F4_8",
@@ -2647,7 +2675,7 @@
 }
 {
 
-"ID" : "189",
+"ID" : "191",
 "ElementName" : "C_GH_Body_F4_9",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F4_9",
@@ -2661,7 +2689,7 @@
 }
 {
 
-"ID" : "190",
+"ID" : "192",
 "ElementName" : "C_GH_Body_F4_10",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F4_10",
@@ -2675,7 +2703,7 @@
 }
 {
 
-"ID" : "191",
+"ID" : "193",
 "ElementName" : "C_GH_Body_F4_11",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F4_11",
@@ -2689,7 +2717,7 @@
 }
 {
 
-"ID" : "192",
+"ID" : "194",
 "ElementName" : "C_GH_Body_F4_12",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F4_12",
@@ -2703,7 +2731,7 @@
 }
 {
 
-"ID" : "193",
+"ID" : "195",
 "ElementName" : "C_GH_Body_F4_13",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F4_13",
@@ -2717,7 +2745,7 @@
 }
 {
 
-"ID" : "194",
+"ID" : "196",
 "ElementName" : "C_GH_Body_F4_14",
 "Tags" : "Body;Female",
 "ObjectPath" : "Body/C_GH_Body_F4_14",
@@ -2731,7 +2759,7 @@
 }
 {
 
-"ID" : "195",
+"ID" : "197",
 "ElementName" : "C_GH_Body_M1_1",
 "Tags" : "Body;Male",
 "ObjectPath" : "Body/C_GH_Body_M1_1",
@@ -2745,7 +2773,7 @@
 }
 {
 
-"ID" : "196",
+"ID" : "198",
 "ElementName" : "C_GH_Body_M1_2",
 "Tags" : "Body;Male",
 "ObjectPath" : "Body/C_GH_Body_M1_2",
@@ -2759,7 +2787,7 @@
 }
 {
 
-"ID" : "197",
+"ID" : "199",
 "ElementName" : "C_GH_Body_M2_1",
 "Tags" : "Body;Male",
 "ObjectPath" : "Body/C_GH_Body_M2_1",
@@ -2773,7 +2801,7 @@
 }
 {
 
-"ID" : "198",
+"ID" : "200",
 "ElementName" : "C_GH_Body_M2_2",
 "Tags" : "Body;Male",
 "ObjectPath" : "Body/C_GH_Body_M2_2",
@@ -2787,7 +2815,7 @@
 }
 {
 
-"ID" : "199",
+"ID" : "201",
 "ElementName" : "C_GH_Feet_F1_1L",
 "Tags" : "Foot;Female;Left",
 "ObjectPath" : "LeftFoot/C_GH_Feet_F1_1L",
@@ -2801,7 +2829,7 @@
 }
 {
 
-"ID" : "200",
+"ID" : "202",
 "ElementName" : "C_GH_Feet_F1_2L",
 "Tags" : "Foot;Female;Left",
 "ObjectPath" : "LeftFoot/C_GH_Feet_F1_2L",
@@ -2815,7 +2843,7 @@
 }
 {
 
-"ID" : "201",
+"ID" : "203",
 "ElementName" : "C_GH_Feet_F1_3L",
 "Tags" : "Foot;Female;Left",
 "ObjectPath" : "LeftFoot/C_GH_Feet_F1_3L",
@@ -2829,7 +2857,7 @@
 }
 {
 
-"ID" : "202",
+"ID" : "204",
 "ElementName" : "C_GH_Feet_F1_4L",
 "Tags" : "Foot;Female;Left",
 "ObjectPath" : "LeftFoot/C_GH_Feet_F1_4L",
@@ -2843,7 +2871,7 @@
 }
 {
 
-"ID" : "203",
+"ID" : "205",
 "ElementName" : "C_GH_Feet_M1_1L",
 "Tags" : "Foot;Male;Left",
 "ObjectPath" : "LeftFoot/C_GH_Feet_M1_1L",
@@ -2857,7 +2885,7 @@
 }
 {
 
-"ID" : "204",
+"ID" : "206",
 "ElementName" : "C_GH_Feet_M1_2L",
 "Tags" : "Foot;Male;Left",
 "ObjectPath" : "LeftFoot/C_GH_Feet_M1_2L",
@@ -2871,7 +2899,7 @@
 }
 {
 
-"ID" : "205",
+"ID" : "207",
 "ElementName" : "C_GH_Feet_F1_1R",
 "Tags" : "Foot;Female;Right",
 "ObjectPath" : "RightFoot/C_GH_Feet_F1_1R",
@@ -2885,7 +2913,7 @@
 }
 {
 
-"ID" : "206",
+"ID" : "208",
 "ElementName" : "C_GH_Feet_F1_2R",
 "Tags" : "Foot;Female;Right",
 "ObjectPath" : "RightFoot/C_GH_Feet_F1_2R",
@@ -2899,7 +2927,7 @@
 }
 {
 
-"ID" : "207",
+"ID" : "209",
 "ElementName" : "C_GH_Feet_F1_3R",
 "Tags" : "Foot;Female;Right",
 "ObjectPath" : "RightFoot/C_GH_Feet_F1_3R",
@@ -2913,7 +2941,7 @@
 }
 {
 
-"ID" : "208",
+"ID" : "210",
 "ElementName" : "C_GH_Feet_F1_4R",
 "Tags" : "Foot;Female;Right",
 "ObjectPath" : "RightFoot/C_GH_Feet_F1_4R",
@@ -2927,7 +2955,7 @@
 }
 {
 
-"ID" : "209",
+"ID" : "211",
 "ElementName" : "C_GH_Feet_M1_1R",
 "Tags" : "Foot;Male;Right",
 "ObjectPath" : "RightFoot/C_GH_Feet_M1_1R",
@@ -2941,7 +2969,7 @@
 }
 {
 
-"ID" : "210",
+"ID" : "212",
 "ElementName" : "C_GH_Feet_M1_2R",
 "Tags" : "Foot;Male;Right",
 "ObjectPath" : "RightFoot/C_GH_Feet_M1_2R",
@@ -2955,12 +2983,12 @@
 }
 {
 
-"ID" : "211",
+"ID" : "213",
 "ElementName" : "BloodLineBack",
-"Tags" : "BloodLine",
+"Tags" : "BloodLineBack",
 "ObjectPath" : "BloodLineBack",
 "Dependency" : "",
-"Pos" : "ECP_Body",
+"Pos" : "ECP_BloodLineBack",
 "HumanType" : "EHT_Both",
 "HumanSide" : "EHT_Left",
 "HumanWeapon" : "EHW_BareHand",
@@ -2969,12 +2997,12 @@
 }
 {
 
-"ID" : "212",
+"ID" : "214",
 "ElementName" : "BloodLineFront",
-"Tags" : "BloodLine",
+"Tags" : "BloodLineFront",
 "ObjectPath" : "BloodLineBack/BloodLineFront",
 "Dependency" : "BloodLineBack",
-"Pos" : "ECP_Body",
+"Pos" : "ECP_BloodLineFront",
 "HumanType" : "EHT_Both",
 "HumanSide" : "EHT_Left",
 "HumanWeapon" : "EHW_BareHand",
@@ -2983,12 +3011,12 @@
 }
 {
 
-"ID" : "213",
-"ElementName" : "shadow",
+"ID" : "215",
+"ElementName" : "Shadow",
 "Tags" : "Shadow",
-"ObjectPath" : "shadow",
+"ObjectPath" : "Shadow",
 "Dependency" : "",
-"Pos" : "ECP_Body",
+"Pos" : "ECP_Shadow",
 "HumanType" : "EHT_Both",
 "HumanSide" : "EHT_Left",
 "HumanWeapon" : "EHW_BareHand",
