@@ -10,7 +10,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: 8e1c0667ffec9124985934ff48ab1fee, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: 2000
   stringTagMap: {}
   m_SavedProperties:
     serializedVersion: 2
@@ -140,3 +140,11 @@ Material:
         first:
           name: _ClothColor
         second: {r: 1, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _MainColor
+        second: {r: 1, g: 0.09558821, b: 0.09558821, a: 1}
+      data:
+        first:
+          name: _SubColor
+        second: {r: 0.09264703, g: 0.46323532, b: 0, a: 1}

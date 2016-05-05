@@ -140,3 +140,11 @@ Material:
         first:
           name: _ClothColor
         second: {r: 1, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _MainColor
+        second: {r: 1, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _SubColor
+        second: {r: 0.022058798, g: 0.6397059, b: 0, a: 1}

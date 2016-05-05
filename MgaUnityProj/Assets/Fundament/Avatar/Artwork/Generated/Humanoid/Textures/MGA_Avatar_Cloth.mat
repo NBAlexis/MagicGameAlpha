@@ -26,5 +26,9 @@ Material:
     m_Colors:
       data:
         first:
-          name: _ClothColor
+          name: _MainColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SubColor
         second: {r: 1, g: 1, b: 1, a: 1}

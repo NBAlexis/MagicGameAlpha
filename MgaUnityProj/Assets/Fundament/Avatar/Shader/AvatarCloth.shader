@@ -1,17 +1,13 @@
 Shader "MGA/Avatar/Cloth" {
 Properties {
 	_MainTex ("Base (RGB)", 2D) = "white" {}
-	_ClothColor ("Color", Color) = (1,1,1,1)
+	_MainColor ("Color", Color) = (1,1,1,1)
+	_SubColor ("Color", Color) = (1,1,1,1)
 }
 
 SubShader {
-	//Tags {"Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent"}
 	Tags {"RenderType"="Opaque"}
-	//LOD 100
 	
-	//ZWrite Off
-	//Blend SrcAlpha OneMinusSrcAlpha 
-
 	Pass {  
 		CGPROGRAM
 			#pragma vertex vert
@@ -33,7 +29,8 @@ SubShader {
 
 			sampler2D _MainTex;
 			float4 _MainTex_ST;
-			float4 _ClothColor;
+			float4 _MainColor;
+			float4 _SubColor;
 			
 			v2f vert (appdata_t v)
 			{
@@ -47,7 +44,9 @@ SubShader {
 			fixed4 frag (v2f i) : SV_Target
 			{
 				fixed4 col = tex2D(_MainTex, i.texcoord);
-				col.rgb = col.rgb * col.a + _ClothColor.rgb * (1.0f - col.a);
+				float rate = (col.r + col.g + col.b) * 0.333f;
+				fixed3 cor = _SubColor * rate + _MainColor * (1.0f - rate);
+				col.rgb = col.rgb * col.a + cor * (1.0f - col.a);
 
 				UNITY_APPLY_FOG(i.fogCoord, col);
 				UNITY_OPAQUE_ALPHA(col.a);
