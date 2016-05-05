@@ -1,8 +1,10 @@
 Shader "MGA/Avatar/Cloth" {
 Properties {
 	_MainTex ("Base (RGB)", 2D) = "white" {}
-	_MainColor ("Color", Color) = (1,1,1,1)
-	_SubColor ("Color", Color) = (1,1,1,1)
+	_ColorTex ("Color (RGB)", 2D) = "white" {}
+	_ShadowTex ("Shadow (RGB)", 2D) = "white" {}
+	_MainColor ("Main Color", Color) = (1,1,1,1)
+	_SubColor ("Sub Color", Color) = (1,1,1,1)
 }
 
 SubShader {
@@ -29,6 +31,11 @@ SubShader {
 
 			sampler2D _MainTex;
 			float4 _MainTex_ST;
+			sampler2D _ColorTex;
+			float4 _ColorTex_ST;
+			sampler2D _ShadowTex;
+			float4 _ShadowTex_ST;
+
 			float4 _MainColor;
 			float4 _SubColor;
 			
@@ -44,9 +51,15 @@ SubShader {
 			fixed4 frag (v2f i) : SV_Target
 			{
 				fixed4 col = tex2D(_MainTex, i.texcoord);
-				float rate = (col.r + col.g + col.b) * 0.333f;
-				fixed3 cor = _SubColor * rate + _MainColor * (1.0f - rate);
-				col.rgb = col.rgb * col.a + cor * (1.0f - col.a);
+				fixed4 ratecol = tex2D(_ColorTex, i.texcoord);
+				fixed shadowcol = saturate((tex2D(_ShadowTex, i.texcoord).r + 0.2f) * (1.0f + ratecol.b * ratecol.r));
+				fixed rate = ratecol.b;
+				fixed3 cor = _SubColor * ratecol.g + _MainColor * ratecol.r;
+				col.rgb = col.rgb * (1.0f - rate) + cor * rate;
+				col.rgb = 1.5f * shadowcol * col.rgb;
+
+				fixed3 invc = (col.rgb - fixed3(0.5f, 0.5f, 0.5f)) * 0.25f + 0.15f * _MainColor.rgb + fixed3(0.2f, 0.2f, 0.2f);
+				col.rgb = col.rgb * _MainColor.a + invc * (1.0f - _MainColor.a);
 
 				UNITY_APPLY_FOG(i.fogCoord, col);
 				UNITY_OPAQUE_ALPHA(col.a);

@@ -19,7 +19,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: c22f5754becc28442affbbe2e118a907, type: 3}
+          m_Texture: {fileID: 2800000, guid: e08e3e888f605784d9a81b78378b9b7d, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -76,6 +76,20 @@ Material:
           name: _MetallicGlossMap
         second:
           m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ColorTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 0370d278052b88d41b5d98cb5c86b26b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ShadowTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8aabf560bd1ce7d449c0fed665d7ca83, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -143,8 +157,8 @@ Material:
       data:
         first:
           name: _MainColor
-        second: {r: 1, g: 0.45588237, b: 0.45588237, a: 1}
+        second: {r: 1, g: 0, b: 0, a: 1}
       data:
         first:
           name: _SubColor
-        second: {r: 0.07581142, g: 0.47794116, b: 0, a: 1}
+        second: {r: 1, g: 1, b: 1, a: 1}
