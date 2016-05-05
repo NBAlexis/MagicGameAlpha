@@ -29,8 +29,6 @@ public enum ECharactorCamp : byte
     ECC_2,
     ECC_3,
     ECC_4,
-    ECC_5,
-    ECC_6,
 
     ECC_Max,
 }

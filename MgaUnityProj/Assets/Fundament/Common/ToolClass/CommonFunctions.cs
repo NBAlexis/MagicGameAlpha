@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
 using UnityEngine;
 
@@ -176,5 +177,11 @@ public class CommonFunctions
             }
         }
         return null;
+    }
+
+    public static string BuildStringOrder(string[] strings)
+    {
+        strings.ToList().Sort();
+        return strings.Aggregate("", (current, s) => current + s);
     }
 }

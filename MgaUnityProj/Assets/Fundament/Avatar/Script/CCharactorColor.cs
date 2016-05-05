@@ -6,8 +6,8 @@ public enum ECharactorMainColor : byte
     ECMC_2,
     ECMC_3,
     ECMC_4,
-    ECMC_5,
-    ECMC_6,
+
+    ECMC_Max,
 }
 
 public enum ECharactorSubColor : byte
@@ -16,7 +16,8 @@ public enum ECharactorSubColor : byte
     ECSC_2,
     ECSC_3,
     ECSC_4,
-    ECSC_5,
+
+    ECSC_Max,
 }
 
 public class CCharactorColorElement : CMGDataElement

@@ -2,9 +2,9 @@
 {
 
 "ID" : "0",
-"ElementName" : "new element",
+"ElementName" : "S1",
 "Tags" : "",
-"Color" : "139.2941,1.024222,1.024222,255",
+"Color" : "152,55,55,255",
 "IsMain" : "False",
 "MainColor" : "ECMC_1",
 "SubColor" : "ECSC_1",
@@ -13,9 +13,9 @@
 {
 
 "ID" : "1",
-"ElementName" : "new element 1",
+"ElementName" : "S2",
 "Tags" : "",
-"Color" : "0,120.4706,15.78582,255",
+"Color" : "114,101,78,255",
 "IsMain" : "False",
 "MainColor" : "ECMC_1",
 "SubColor" : "ECSC_2",
@@ -24,9 +24,9 @@
 {
 
 "ID" : "2",
-"ElementName" : "new element 2",
+"ElementName" : "S3",
 "Tags" : "",
-"Color" : "150.5882,155.6771,255,255",
+"Color" : "127,139,214,255",
 "IsMain" : "False",
 "MainColor" : "ECMC_1",
 "SubColor" : "ECSC_3",
@@ -35,9 +35,9 @@
 {
 
 "ID" : "3",
-"ElementName" : "new element 3",
+"ElementName" : "S4",
 "Tags" : "",
-"Color" : "76.50144,0,133.6471,255",
+"Color" : "77,0,126,255",
 "IsMain" : "False",
 "MainColor" : "ECMC_1",
 "SubColor" : "ECSC_4",
@@ -45,21 +45,10 @@
 }
 {
 
-"ID" : "4",
-"ElementName" : "new element 4",
-"Tags" : "",
-"Color" : "255,153.6,0,255",
-"IsMain" : "False",
-"MainColor" : "ECMC_1",
-"SubColor" : "ECSC_5",
-
-}
-{
-
 "ID" : "5",
-"ElementName" : "new element 5",
+"ElementName" : "M1",
 "Tags" : "",
-"Color" : "255,80.94118,178.7327,255",
+"Color" : "0,2,255,255",
 "IsMain" : "True",
 "MainColor" : "ECMC_1",
 "SubColor" : "ECSC_1",
@@ -68,9 +57,9 @@
 {
 
 "ID" : "6",
-"ElementName" : "new element 6",
+"ElementName" : "M2",
 "Tags" : "",
-"Color" : "112.9412,255,155.3655,255",
+"Color" : "255,0,0,255",
 "IsMain" : "True",
 "MainColor" : "ECMC_2",
 "SubColor" : "ECSC_1",
@@ -79,9 +68,9 @@
 {
 
 "ID" : "7",
-"ElementName" : "new element 7",
+"ElementName" : "M3",
 "Tags" : "",
-"Color" : "0,255,245.4069,255",
+"Color" : "184,184,184,255",
 "IsMain" : "True",
 "MainColor" : "ECMC_3",
 "SubColor" : "ECSC_1",
@@ -90,33 +79,11 @@
 {
 
 "ID" : "8",
-"ElementName" : "new element 8",
+"ElementName" : "M4",
 "Tags" : "",
-"Color" : "252.469,255,0,255",
+"Color" : "255,255,0,255",
 "IsMain" : "True",
 "MainColor" : "ECMC_4",
-"SubColor" : "ECSC_1",
-
-}
-{
-
-"ID" : "9",
-"ElementName" : "new element 9",
-"Tags" : "",
-"Color" : "128,45.02069,0,255",
-"IsMain" : "True",
-"MainColor" : "ECMC_5",
-"SubColor" : "ECSC_1",
-
-}
-{
-
-"ID" : "10",
-"ElementName" : "new element 10",
-"Tags" : "",
-"Color" : "133.6471,133.6471,133.6471,255",
-"IsMain" : "True",
-"MainColor" : "ECMC_6",
 "SubColor" : "ECSC_1",
 
 }
