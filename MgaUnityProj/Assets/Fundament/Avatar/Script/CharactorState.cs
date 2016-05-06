@@ -44,10 +44,10 @@ public class CharactorState_Avatar : CharactorState
         //Put to ground
         if (ECharactorMoveType.ECMT_Sky == pObj.m_pModel.m_eMoveType)
         {
-            
-            pObj.m_pModelShell.transform.localPosition = new Vector3(pObj.m_pModelShell.transform.localPosition.x,
-                Mathf.Clamp(pObj.m_pModelShell.transform.localPosition.y + fDeltaTime * 4.5f, 0.0f, 6.0f),
-                pObj.m_pModelShell.transform.localPosition.z);
+
+            pObj.m_pModel.transform.localPosition = new Vector3(pObj.m_pModel.transform.localPosition.x,
+                Mathf.Clamp(pObj.m_pModel.transform.localPosition.y + fDeltaTime * 4.5f, 0.0f, 6.0f),
+                pObj.m_pModel.transform.localPosition.z);
 
         }
     }

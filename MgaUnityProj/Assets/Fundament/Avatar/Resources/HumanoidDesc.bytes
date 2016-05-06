@@ -1,0 +1,3069 @@
+﻿
+{
+
+"ID" : "0",
+"ElementName" : "C_GH_Back1",
+"Tags" : "Back;Female;Male",
+"ObjectPath" : "Body/Cloth/C_GH_Back1",
+"Pos" : "ECP_Back",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "1",
+"ElementName" : "C_GH_Back2",
+"Tags" : "Back;Female;Male",
+"ObjectPath" : "Body/Cloth/C_GH_Back2",
+"Pos" : "ECP_Back",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "2",
+"ElementName" : "C_GH_Back3",
+"Tags" : "Back;Female;Male",
+"ObjectPath" : "Body/Cloth/C_GH_Back3",
+"Pos" : "ECP_Back",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "3",
+"ElementName" : "C_GH_Head_M1",
+"Tags" : "Head;Male",
+"ObjectPath" : "Body/Head/C_GH_Head_M1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Male",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "4",
+"ElementName" : "C_GH_Head_M2",
+"Tags" : "Head;Male",
+"ObjectPath" : "Body/Head/C_GH_Head_M2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Male",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "5",
+"ElementName" : "C_GH_Head_M3",
+"Tags" : "Head;Male",
+"ObjectPath" : "Body/Head/C_GH_Head_M3",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Male",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "6",
+"ElementName" : "C_GH_Head_M4",
+"Tags" : "Head;Male",
+"ObjectPath" : "Body/Head/C_GH_Head_M4",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Male",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "7",
+"ElementName" : "C_GH_Head_FC_GH_Head_F1_Hair1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F1_Hair1",
+"Pos" : "ECP_Head",
+"Weight" : "30",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "8",
+"ElementName" : "C_GH_Head_FC_GH_Head_F1_Hair1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F1_Hair1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "2",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "9",
+"ElementName" : "C_GH_Head_FC_GH_Head_F1_Hair1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F1_Hair1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "2",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "10",
+"ElementName" : "C_GH_Head_FC_GH_Head_F1_Hair1Hat1_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F1_Hair1Hat1_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "11",
+"ElementName" : "C_GH_Head_FC_GH_Head_F1_Hair1Hat1_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F1_Hair1Hat1_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "12",
+"ElementName" : "C_GH_Head_FC_GH_Head_F1_Hair1Hat1_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F1_Hair1Hat1_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "13",
+"ElementName" : "C_GH_Head_FC_GH_Head_F1_Hair1Hat2_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F1_Hair1Hat2_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "14",
+"ElementName" : "C_GH_Head_FC_GH_Head_F1_Hair1Hat2_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F1_Hair1Hat2_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "15",
+"ElementName" : "C_GH_Head_FC_GH_Head_F1_Hair1Hat2_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F1_Hair1Hat2_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "16",
+"ElementName" : "C_GH_Head_FC_GH_Head_F1_Hair1Hat3_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F1_Hair1Hat3_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "17",
+"ElementName" : "C_GH_Head_FC_GH_Head_F1_Hair1Hat3_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F1_Hair1Hat3_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "18",
+"ElementName" : "C_GH_Head_FC_GH_Head_F1_Hair1Hat3_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F1_Hair1Hat3_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "19",
+"ElementName" : "C_GH_Head_FC_GH_Head_F1_Hair1Hat4_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F1_Hair1Hat4_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "20",
+"ElementName" : "C_GH_Head_FC_GH_Head_F1_Hair1Hat4_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F1_Hair1Hat4_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "21",
+"ElementName" : "C_GH_Head_FC_GH_Head_F1_Hair1Hat4_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F1_Hair1Hat4_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "22",
+"ElementName" : "C_GH_Head_FC_GH_Head_F1_Hair1Hat5_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F1_Hair1Hat5_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "23",
+"ElementName" : "C_GH_Head_FC_GH_Head_F1_Hair1Hat5_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F1_Hair1Hat5_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "24",
+"ElementName" : "C_GH_Head_FC_GH_Head_F1_Hair1Hat5_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F1_Hair1Hat5_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "25",
+"ElementName" : "C_GH_Head_FC_GH_Head_F2_Hair1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F2_Hair1",
+"Pos" : "ECP_Head",
+"Weight" : "30",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "26",
+"ElementName" : "C_GH_Head_FC_GH_Head_F2_Hair1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F2_Hair1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "2",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "27",
+"ElementName" : "C_GH_Head_FC_GH_Head_F2_Hair1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F2_Hair1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "2",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "28",
+"ElementName" : "C_GH_Head_FC_GH_Head_F2_Hair1Hat1_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F2_Hair1Hat1_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "29",
+"ElementName" : "C_GH_Head_FC_GH_Head_F2_Hair1Hat1_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F2_Hair1Hat1_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "30",
+"ElementName" : "C_GH_Head_FC_GH_Head_F2_Hair1Hat1_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F2_Hair1Hat1_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "31",
+"ElementName" : "C_GH_Head_FC_GH_Head_F2_Hair1Hat2_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F2_Hair1Hat2_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "32",
+"ElementName" : "C_GH_Head_FC_GH_Head_F2_Hair1Hat2_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F2_Hair1Hat2_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "33",
+"ElementName" : "C_GH_Head_FC_GH_Head_F2_Hair1Hat2_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F2_Hair1Hat2_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "34",
+"ElementName" : "C_GH_Head_FC_GH_Head_F2_Hair1Hat3_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F2_Hair1Hat3_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "35",
+"ElementName" : "C_GH_Head_FC_GH_Head_F2_Hair1Hat3_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F2_Hair1Hat3_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "36",
+"ElementName" : "C_GH_Head_FC_GH_Head_F2_Hair1Hat3_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F2_Hair1Hat3_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "37",
+"ElementName" : "C_GH_Head_FC_GH_Head_F2_Hair1Hat4_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F2_Hair1Hat4_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "38",
+"ElementName" : "C_GH_Head_FC_GH_Head_F2_Hair1Hat4_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F2_Hair1Hat4_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "39",
+"ElementName" : "C_GH_Head_FC_GH_Head_F2_Hair1Hat4_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F2_Hair1Hat4_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "40",
+"ElementName" : "C_GH_Head_FC_GH_Head_F2_Hair1Hat5_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F2_Hair1Hat5_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "41",
+"ElementName" : "C_GH_Head_FC_GH_Head_F2_Hair1Hat5_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F2_Hair1Hat5_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "42",
+"ElementName" : "C_GH_Head_FC_GH_Head_F2_Hair1Hat5_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F2_Hair1Hat5_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "43",
+"ElementName" : "C_GH_Head_FC_GH_Head_F3_Hair1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F3_Hair1",
+"Pos" : "ECP_Head",
+"Weight" : "30",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "44",
+"ElementName" : "C_GH_Head_FC_GH_Head_F3_Hair1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F3_Hair1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "2",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "45",
+"ElementName" : "C_GH_Head_FC_GH_Head_F3_Hair1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F3_Hair1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "2",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "46",
+"ElementName" : "C_GH_Head_FC_GH_Head_F3_Hair1Hat1_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F3_Hair1Hat1_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "47",
+"ElementName" : "C_GH_Head_FC_GH_Head_F3_Hair1Hat1_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F3_Hair1Hat1_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "48",
+"ElementName" : "C_GH_Head_FC_GH_Head_F3_Hair1Hat1_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F3_Hair1Hat1_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "49",
+"ElementName" : "C_GH_Head_FC_GH_Head_F3_Hair1Hat2_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F3_Hair1Hat2_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "50",
+"ElementName" : "C_GH_Head_FC_GH_Head_F3_Hair1Hat2_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F3_Hair1Hat2_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "51",
+"ElementName" : "C_GH_Head_FC_GH_Head_F3_Hair1Hat2_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F3_Hair1Hat2_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "52",
+"ElementName" : "C_GH_Head_FC_GH_Head_F3_Hair1Hat3_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F3_Hair1Hat3_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "53",
+"ElementName" : "C_GH_Head_FC_GH_Head_F3_Hair1Hat3_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F3_Hair1Hat3_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "54",
+"ElementName" : "C_GH_Head_FC_GH_Head_F3_Hair1Hat3_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F3_Hair1Hat3_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "55",
+"ElementName" : "C_GH_Head_FC_GH_Head_F3_Hair1Hat4_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F3_Hair1Hat4_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "56",
+"ElementName" : "C_GH_Head_FC_GH_Head_F3_Hair1Hat4_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F3_Hair1Hat4_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "57",
+"ElementName" : "C_GH_Head_FC_GH_Head_F3_Hair1Hat4_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F3_Hair1Hat4_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "58",
+"ElementName" : "C_GH_Head_FC_GH_Head_F3_Hair1Hat5_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F3_Hair1Hat5_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "59",
+"ElementName" : "C_GH_Head_FC_GH_Head_F3_Hair1Hat5_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F3_Hair1Hat5_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "60",
+"ElementName" : "C_GH_Head_FC_GH_Head_F3_Hair1Hat5_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F3_Hair1Hat5_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "61",
+"ElementName" : "C_GH_Head_FC_GH_Head_F4_Hair1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F4_Hair1",
+"Pos" : "ECP_Head",
+"Weight" : "30",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "62",
+"ElementName" : "C_GH_Head_FC_GH_Head_F4_Hair1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F4_Hair1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "2",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "63",
+"ElementName" : "C_GH_Head_FC_GH_Head_F4_Hair1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F4_Hair1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "2",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "64",
+"ElementName" : "C_GH_Head_FC_GH_Head_F4_Hair1Hat1_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F4_Hair1Hat1_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "65",
+"ElementName" : "C_GH_Head_FC_GH_Head_F4_Hair1Hat1_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F4_Hair1Hat1_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "66",
+"ElementName" : "C_GH_Head_FC_GH_Head_F4_Hair1Hat1_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F4_Hair1Hat1_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "67",
+"ElementName" : "C_GH_Head_FC_GH_Head_F4_Hair1Hat2_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F4_Hair1Hat2_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "68",
+"ElementName" : "C_GH_Head_FC_GH_Head_F4_Hair1Hat2_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F4_Hair1Hat2_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "69",
+"ElementName" : "C_GH_Head_FC_GH_Head_F4_Hair1Hat2_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F4_Hair1Hat2_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "70",
+"ElementName" : "C_GH_Head_FC_GH_Head_F4_Hair1Hat3_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F4_Hair1Hat3_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "71",
+"ElementName" : "C_GH_Head_FC_GH_Head_F4_Hair1Hat3_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F4_Hair1Hat3_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "72",
+"ElementName" : "C_GH_Head_FC_GH_Head_F4_Hair1Hat3_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F4_Hair1Hat3_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "73",
+"ElementName" : "C_GH_Head_FC_GH_Head_F4_Hair1Hat4_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F4_Hair1Hat4_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "74",
+"ElementName" : "C_GH_Head_FC_GH_Head_F4_Hair1Hat4_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F4_Hair1Hat4_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "75",
+"ElementName" : "C_GH_Head_FC_GH_Head_F4_Hair1Hat4_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F4_Hair1Hat4_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "76",
+"ElementName" : "C_GH_Head_FC_GH_Head_F4_Hair1Hat5_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F4_Hair1Hat5_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "77",
+"ElementName" : "C_GH_Head_FC_GH_Head_F4_Hair1Hat5_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F4_Hair1Hat5_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "78",
+"ElementName" : "C_GH_Head_FC_GH_Head_F4_Hair1Hat5_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F4_Hair1Hat5_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "79",
+"ElementName" : "C_GH_Head_FC_GH_Head_F5_Hair1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F5_Hair1",
+"Pos" : "ECP_Head",
+"Weight" : "30",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "80",
+"ElementName" : "C_GH_Head_FC_GH_Head_F5_Hair1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F5_Hair1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "2",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "81",
+"ElementName" : "C_GH_Head_FC_GH_Head_F5_Hair1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F5_Hair1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "2",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "82",
+"ElementName" : "C_GH_Head_FC_GH_Head_F5_Hair1Hat1_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F5_Hair1Hat1_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "83",
+"ElementName" : "C_GH_Head_FC_GH_Head_F5_Hair1Hat1_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F5_Hair1Hat1_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "84",
+"ElementName" : "C_GH_Head_FC_GH_Head_F5_Hair1Hat1_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F5_Hair1Hat1_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "85",
+"ElementName" : "C_GH_Head_FC_GH_Head_F5_Hair1Hat2_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F5_Hair1Hat2_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "86",
+"ElementName" : "C_GH_Head_FC_GH_Head_F5_Hair1Hat2_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F5_Hair1Hat2_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "87",
+"ElementName" : "C_GH_Head_FC_GH_Head_F5_Hair1Hat2_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F5_Hair1Hat2_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "88",
+"ElementName" : "C_GH_Head_FC_GH_Head_F5_Hair1Hat3_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F5_Hair1Hat3_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "89",
+"ElementName" : "C_GH_Head_FC_GH_Head_F5_Hair1Hat3_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F5_Hair1Hat3_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "90",
+"ElementName" : "C_GH_Head_FC_GH_Head_F5_Hair1Hat3_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F5_Hair1Hat3_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "91",
+"ElementName" : "C_GH_Head_FC_GH_Head_F5_Hair1Hat4_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F5_Hair1Hat4_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "92",
+"ElementName" : "C_GH_Head_FC_GH_Head_F5_Hair1Hat4_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F5_Hair1Hat4_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "93",
+"ElementName" : "C_GH_Head_FC_GH_Head_F5_Hair1Hat4_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F5_Hair1Hat4_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "94",
+"ElementName" : "C_GH_Head_FC_GH_Head_F5_Hair1Hat5_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F5_Hair1Hat5_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "95",
+"ElementName" : "C_GH_Head_FC_GH_Head_F5_Hair1Hat5_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F5_Hair1Hat5_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "96",
+"ElementName" : "C_GH_Head_FC_GH_Head_F5_Hair1Hat5_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F5_Hair1Hat5_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "97",
+"ElementName" : "C_GH_Head_FC_GH_Head_F6_Hair1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F6_Hair1",
+"Pos" : "ECP_Head",
+"Weight" : "30",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "98",
+"ElementName" : "C_GH_Head_FC_GH_Head_F6_Hair1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F6_Hair1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "2",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "99",
+"ElementName" : "C_GH_Head_FC_GH_Head_F6_Hair1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F6_Hair1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "2",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "100",
+"ElementName" : "C_GH_Head_FC_GH_Head_F6_Hair1Hat1_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F6_Hair1Hat1_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "101",
+"ElementName" : "C_GH_Head_FC_GH_Head_F6_Hair1Hat1_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F6_Hair1Hat1_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "102",
+"ElementName" : "C_GH_Head_FC_GH_Head_F6_Hair1Hat1_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F6_Hair1Hat1_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "103",
+"ElementName" : "C_GH_Head_FC_GH_Head_F6_Hair1Hat2_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F6_Hair1Hat2_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "104",
+"ElementName" : "C_GH_Head_FC_GH_Head_F6_Hair1Hat2_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F6_Hair1Hat2_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "105",
+"ElementName" : "C_GH_Head_FC_GH_Head_F6_Hair1Hat2_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F6_Hair1Hat2_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "106",
+"ElementName" : "C_GH_Head_FC_GH_Head_F6_Hair1Hat3_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F6_Hair1Hat3_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "107",
+"ElementName" : "C_GH_Head_FC_GH_Head_F6_Hair1Hat3_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F6_Hair1Hat3_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "108",
+"ElementName" : "C_GH_Head_FC_GH_Head_F6_Hair1Hat3_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F6_Hair1Hat3_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "109",
+"ElementName" : "C_GH_Head_FC_GH_Head_F6_Hair1Hat4_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F6_Hair1Hat4_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "110",
+"ElementName" : "C_GH_Head_FC_GH_Head_F6_Hair1Hat4_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F6_Hair1Hat4_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "111",
+"ElementName" : "C_GH_Head_FC_GH_Head_F6_Hair1Hat4_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F6_Hair1Hat4_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "112",
+"ElementName" : "C_GH_Head_FC_GH_Head_F6_Hair1Hat5_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F6_Hair1Hat5_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "113",
+"ElementName" : "C_GH_Head_FC_GH_Head_F6_Hair1Hat5_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F6_Hair1Hat5_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "114",
+"ElementName" : "C_GH_Head_FC_GH_Head_F6_Hair1Hat5_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F6_Hair1Hat5_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "115",
+"ElementName" : "C_GH_Head_FC_GH_Head_F7_Hair1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F7_Hair1",
+"Pos" : "ECP_Head",
+"Weight" : "30",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "116",
+"ElementName" : "C_GH_Head_FC_GH_Head_F7_Hair1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F7_Hair1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "2",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "117",
+"ElementName" : "C_GH_Head_FC_GH_Head_F7_Hair1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F7_Hair1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "2",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "118",
+"ElementName" : "C_GH_Head_FC_GH_Head_F7_Hair1Hat1_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F7_Hair1Hat1_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "119",
+"ElementName" : "C_GH_Head_FC_GH_Head_F7_Hair1Hat1_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F7_Hair1Hat1_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "120",
+"ElementName" : "C_GH_Head_FC_GH_Head_F7_Hair1Hat1_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F7_Hair1Hat1_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "121",
+"ElementName" : "C_GH_Head_FC_GH_Head_F7_Hair1Hat2_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F7_Hair1Hat2_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "122",
+"ElementName" : "C_GH_Head_FC_GH_Head_F7_Hair1Hat2_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F7_Hair1Hat2_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "123",
+"ElementName" : "C_GH_Head_FC_GH_Head_F7_Hair1Hat2_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F7_Hair1Hat2_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "124",
+"ElementName" : "C_GH_Head_FC_GH_Head_F7_Hair1Hat3_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F7_Hair1Hat3_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "125",
+"ElementName" : "C_GH_Head_FC_GH_Head_F7_Hair1Hat3_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F7_Hair1Hat3_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "126",
+"ElementName" : "C_GH_Head_FC_GH_Head_F7_Hair1Hat3_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F7_Hair1Hat3_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "127",
+"ElementName" : "C_GH_Head_FC_GH_Head_F7_Hair1Hat4_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F7_Hair1Hat4_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "128",
+"ElementName" : "C_GH_Head_FC_GH_Head_F7_Hair1Hat4_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F7_Hair1Hat4_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "129",
+"ElementName" : "C_GH_Head_FC_GH_Head_F7_Hair1Hat4_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F7_Hair1Hat4_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "130",
+"ElementName" : "C_GH_Head_FC_GH_Head_F7_Hair1Hat5_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F7_Hair1Hat5_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "131",
+"ElementName" : "C_GH_Head_FC_GH_Head_F7_Hair1Hat5_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F7_Hair1Hat5_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "132",
+"ElementName" : "C_GH_Head_FC_GH_Head_F7_Hair1Hat5_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F7_Hair1Hat5_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "133",
+"ElementName" : "C_GH_Head_FC_GH_Head_F8_Hair1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F8_Hair1",
+"Pos" : "ECP_Head",
+"Weight" : "30",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "134",
+"ElementName" : "C_GH_Head_FC_GH_Head_F8_Hair1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F8_Hair1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "2",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "135",
+"ElementName" : "C_GH_Head_FC_GH_Head_F8_Hair1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F8_Hair1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "2",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "136",
+"ElementName" : "C_GH_Head_FC_GH_Head_F8_Hair1Hat1_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F8_Hair1Hat1_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "137",
+"ElementName" : "C_GH_Head_FC_GH_Head_F8_Hair1Hat1_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F8_Hair1Hat1_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "138",
+"ElementName" : "C_GH_Head_FC_GH_Head_F8_Hair1Hat1_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F8_Hair1Hat1_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "139",
+"ElementName" : "C_GH_Head_FC_GH_Head_F8_Hair1Hat2_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F8_Hair1Hat2_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "140",
+"ElementName" : "C_GH_Head_FC_GH_Head_F8_Hair1Hat2_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F8_Hair1Hat2_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "141",
+"ElementName" : "C_GH_Head_FC_GH_Head_F8_Hair1Hat2_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F8_Hair1Hat2_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "142",
+"ElementName" : "C_GH_Head_FC_GH_Head_F8_Hair1Hat3_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F8_Hair1Hat3_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "143",
+"ElementName" : "C_GH_Head_FC_GH_Head_F8_Hair1Hat3_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F8_Hair1Hat3_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "144",
+"ElementName" : "C_GH_Head_FC_GH_Head_F8_Hair1Hat3_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F8_Hair1Hat3_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "145",
+"ElementName" : "C_GH_Head_FC_GH_Head_F8_Hair1Hat4_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F8_Hair1Hat4_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "146",
+"ElementName" : "C_GH_Head_FC_GH_Head_F8_Hair1Hat4_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F8_Hair1Hat4_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "147",
+"ElementName" : "C_GH_Head_FC_GH_Head_F8_Hair1Hat4_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F8_Hair1Hat4_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "148",
+"ElementName" : "C_GH_Head_FC_GH_Head_F8_Hair1Hat5_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F8_Hair1Hat5_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "149",
+"ElementName" : "C_GH_Head_FC_GH_Head_F8_Hair1Hat5_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F8_Hair1Hat5_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "150",
+"ElementName" : "C_GH_Head_FC_GH_Head_F8_Hair1Hat5_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F8_Hair1Hat5_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "151",
+"ElementName" : "C_GH_Head_FC_GH_Head_F9_Hair1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F9_Hair1",
+"Pos" : "ECP_Head",
+"Weight" : "30",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "152",
+"ElementName" : "C_GH_Head_FC_GH_Head_F9_Hair1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F9_Hair1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "2",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "153",
+"ElementName" : "C_GH_Head_FC_GH_Head_F9_Hair1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F9_Hair1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "2",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "154",
+"ElementName" : "C_GH_Head_FC_GH_Head_F9_Hair1Hat1_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F9_Hair1Hat1_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "155",
+"ElementName" : "C_GH_Head_FC_GH_Head_F9_Hair1Hat1_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F9_Hair1Hat1_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "156",
+"ElementName" : "C_GH_Head_FC_GH_Head_F9_Hair1Hat1_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F9_Hair1Hat1_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "157",
+"ElementName" : "C_GH_Head_FC_GH_Head_F9_Hair1Hat2_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F9_Hair1Hat2_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "158",
+"ElementName" : "C_GH_Head_FC_GH_Head_F9_Hair1Hat2_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F9_Hair1Hat2_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "159",
+"ElementName" : "C_GH_Head_FC_GH_Head_F9_Hair1Hat2_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F9_Hair1Hat2_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "160",
+"ElementName" : "C_GH_Head_FC_GH_Head_F9_Hair1Hat3_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F9_Hair1Hat3_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "161",
+"ElementName" : "C_GH_Head_FC_GH_Head_F9_Hair1Hat3_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F9_Hair1Hat3_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "162",
+"ElementName" : "C_GH_Head_FC_GH_Head_F9_Hair1Hat3_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F9_Hair1Hat3_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "163",
+"ElementName" : "C_GH_Head_FC_GH_Head_F9_Hair1Hat4_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F9_Hair1Hat4_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "164",
+"ElementName" : "C_GH_Head_FC_GH_Head_F9_Hair1Hat4_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F9_Hair1Hat4_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "165",
+"ElementName" : "C_GH_Head_FC_GH_Head_F9_Hair1Hat4_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F9_Hair1Hat4_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "166",
+"ElementName" : "C_GH_Head_FC_GH_Head_F9_Hair1Hat5_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F9_Hair1Hat5_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "167",
+"ElementName" : "C_GH_Head_FC_GH_Head_F9_Hair1Hat5_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F9_Hair1Hat5_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "168",
+"ElementName" : "C_GH_Head_FC_GH_Head_F9_Hair1Hat5_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F9_Hair1Hat5_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "169",
+"ElementName" : "C_GH_Head_FC_GH_Head_F10_Hair1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F10_Hair1",
+"Pos" : "ECP_Head",
+"Weight" : "30",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "170",
+"ElementName" : "C_GH_Head_FC_GH_Head_F10_Hair1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F10_Hair1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "2",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "171",
+"ElementName" : "C_GH_Head_FC_GH_Head_F10_Hair1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F10_Hair1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "2",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "172",
+"ElementName" : "C_GH_Head_FC_GH_Head_F10_Hair1Hat1_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F10_Hair1Hat1_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "173",
+"ElementName" : "C_GH_Head_FC_GH_Head_F10_Hair1Hat1_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F10_Hair1Hat1_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "174",
+"ElementName" : "C_GH_Head_FC_GH_Head_F10_Hair1Hat1_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F10_Hair1Hat1_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "175",
+"ElementName" : "C_GH_Head_FC_GH_Head_F10_Hair1Hat2_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F10_Hair1Hat2_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "176",
+"ElementName" : "C_GH_Head_FC_GH_Head_F10_Hair1Hat2_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F10_Hair1Hat2_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "177",
+"ElementName" : "C_GH_Head_FC_GH_Head_F10_Hair1Hat2_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F10_Hair1Hat2_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "178",
+"ElementName" : "C_GH_Head_FC_GH_Head_F10_Hair1Hat3_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F10_Hair1Hat3_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "179",
+"ElementName" : "C_GH_Head_FC_GH_Head_F10_Hair1Hat3_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F10_Hair1Hat3_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "180",
+"ElementName" : "C_GH_Head_FC_GH_Head_F10_Hair1Hat3_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F10_Hair1Hat3_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "181",
+"ElementName" : "C_GH_Head_FC_GH_Head_F10_Hair1Hat4_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F10_Hair1Hat4_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "182",
+"ElementName" : "C_GH_Head_FC_GH_Head_F10_Hair1Hat4_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F10_Hair1Hat4_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "183",
+"ElementName" : "C_GH_Head_FC_GH_Head_F10_Hair1Hat4_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F10_Hair1Hat4_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "184",
+"ElementName" : "C_GH_Head_FC_GH_Head_F10_Hair1Hat5_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F10_Hair1Hat5_1",
+"Pos" : "ECP_Head",
+"Weight" : "3",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "185",
+"ElementName" : "C_GH_Head_FC_GH_Head_F10_Hair1Hat5_1Glass_1",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F10_Hair1Hat5_1Glass_1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "186",
+"ElementName" : "C_GH_Head_FC_GH_Head_F10_Hair1Hat5_1Glass_2",
+"Tags" : "Head;Female",
+"ObjectPath" : "Body/Head/C_GH_Head_FC_GH_Head_F10_Hair1Hat5_1Glass_2",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "187",
+"ElementName" : "C_GH_Head_M5C_GH_Head_M5Hair1",
+"Tags" : "Head;Male",
+"ObjectPath" : "Body/Head/C_GH_Head_M5C_GH_Head_M5Hair1",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Male",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "188",
+"ElementName" : "C_GH_Head_M6C_GH_Head_M6Face",
+"Tags" : "Head;Male",
+"ObjectPath" : "Body/Head/C_GH_Head_M6C_GH_Head_M6Face",
+"Pos" : "ECP_Head",
+"Weight" : "1",
+"HumanType" : "EHT_Male",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "189",
+"ElementName" : "SHandWeapon_Shield1_1",
+"Tags" : "Weapon;SHand;Fight;Wizard;Female;Male;Left",
+"ObjectPath" : "Body/LeftHand/LShield/SHandWeapon_Shield1_1",
+"Pos" : "ECP_Weapon",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHT_SingleHand_Fight",
+
+}
+{
+
+"ID" : "190",
+"ElementName" : "SHandWeapon_Shield2_1",
+"Tags" : "Weapon;SHand;Fight;Wizard;Female;Male;Left",
+"ObjectPath" : "Body/LeftHand/LShield/SHandWeapon_Shield2_1",
+"Pos" : "ECP_Weapon",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHT_SingleHand_Fight",
+
+}
+{
+
+"ID" : "191",
+"ElementName" : "SHandWeapon_Shield3_1",
+"Tags" : "Weapon;SHand;Fight;Wizard;Female;Male;Left",
+"ObjectPath" : "Body/LeftHand/LShield/SHandWeapon_Shield3_1",
+"Pos" : "ECP_Weapon",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHT_SingleHand_Fight",
+
+}
+{
+
+"ID" : "192",
+"ElementName" : "Weapon_Shoot_L1_1",
+"Tags" : "Weapon;Shoot;Female;Male;Left",
+"ObjectPath" : "Body/LeftHand/LShoot/Weapon_Shoot_L1_1",
+"Pos" : "ECP_Weapon",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHT_Shoot",
+
+}
+{
+
+"ID" : "193",
+"ElementName" : "Weapon_Shoot_L2_1",
+"Tags" : "Weapon;Shoot;Female;Male;Left",
+"ObjectPath" : "Body/LeftHand/LShoot/Weapon_Shoot_L2_1",
+"Pos" : "ECP_Weapon",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHT_Shoot",
+
+}
+{
+
+"ID" : "194",
+"ElementName" : "Weapon_Shoot_L3_1",
+"Tags" : "Weapon;Shoot;Female;Male;Left",
+"ObjectPath" : "Body/LeftHand/LShoot/Weapon_Shoot_L3_1",
+"Pos" : "ECP_Weapon",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHT_Shoot",
+
+}
+{
+
+"ID" : "195",
+"ElementName" : "SHandWeapon_L",
+"Tags" : "Weapon;SHand;Fight;Female;Male;Left",
+"ObjectPath" : "Body/LeftHand/LWeapon/SHandWeapon_L",
+"Pos" : "ECP_Weapon",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHT_SingleHand_Fight",
+
+}
+{
+
+"ID" : "196",
+"ElementName" : "C_GH_HandL",
+"Tags" : "Hand;Female;Male;Left",
+"ObjectPath" : "Body/LeftHand/C_GH_HandL",
+"Pos" : "ECP_Hand",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "197",
+"ElementName" : "LWing1",
+"Tags" : "Wing;Female;Male;Left",
+"ObjectPath" : "Body/LWing/LWing1",
+"Pos" : "ECP_Wing",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "198",
+"ElementName" : "LWing2",
+"Tags" : "Wing;Female;Male;Left",
+"ObjectPath" : "Body/LWing/LWing2",
+"Pos" : "ECP_Wing",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "199",
+"ElementName" : "SHandWeapon_R_W1",
+"Tags" : "Weapon;SHand;Wizard;Female;Male;Right",
+"ObjectPath" : "Body/RightHand/RWeapon/SHandWeapon_R_W1",
+"Pos" : "ECP_Weapon",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Right",
+"HumanWeapon" : "EHT_SingleHand_Fight",
+
+}
+{
+
+"ID" : "200",
+"ElementName" : "SHandWeapon_R1",
+"Tags" : "Weapon;SHand;Fight;Female;Male;Right",
+"ObjectPath" : "Body/RightHand/RWeapon/SHandWeapon_R1",
+"Pos" : "ECP_Weapon",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Right",
+"HumanWeapon" : "EHT_SingleHand_Fight",
+
+}
+{
+
+"ID" : "201",
+"ElementName" : "SHandWeapon_R2",
+"Tags" : "Weapon;SHand;Fight;Female;Male;Right",
+"ObjectPath" : "Body/RightHand/RWeapon/SHandWeapon_R2",
+"Pos" : "ECP_Weapon",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Right",
+"HumanWeapon" : "EHT_SingleHand_Fight",
+
+}
+{
+
+"ID" : "202",
+"ElementName" : "SHandWeapon_R3",
+"Tags" : "Weapon;SHand;Fight;Female;Male;Right",
+"ObjectPath" : "Body/RightHand/RWeapon/SHandWeapon_R3",
+"Pos" : "ECP_Weapon",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Right",
+"HumanWeapon" : "EHT_SingleHand_Fight",
+
+}
+{
+
+"ID" : "203",
+"ElementName" : "Weapon_Shoot_R1_1",
+"Tags" : "Weapon;Shoot;Female;Male;Right",
+"ObjectPath" : "Body/RightHand/RShoot/Weapon_Shoot_R1_1",
+"Pos" : "ECP_Weapon",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Right",
+"HumanWeapon" : "EHT_Shoot",
+
+}
+{
+
+"ID" : "204",
+"ElementName" : "Weapon_Shoot_R2_1",
+"Tags" : "Weapon;Shoot;Female;Male;Right",
+"ObjectPath" : "Body/RightHand/RShoot/Weapon_Shoot_R2_1",
+"Pos" : "ECP_Weapon",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Right",
+"HumanWeapon" : "EHT_Shoot",
+
+}
+{
+
+"ID" : "205",
+"ElementName" : "DHandWeapon_Sword1",
+"Tags" : "Weapon;DHand;Fight;Female;Male;Right",
+"ObjectPath" : "Body/RightHand/DHandWeapn/DHandWeapon_Sword1",
+"Pos" : "ECP_Weapon",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Right",
+"HumanWeapon" : "EHT_DoubleHand_Fight",
+
+}
+{
+
+"ID" : "206",
+"ElementName" : "DHandWeapon_Sword2",
+"Tags" : "Weapon;DHand;Fight;Female;Male;Right",
+"ObjectPath" : "Body/RightHand/DHandWeapn/DHandWeapon_Sword2",
+"Pos" : "ECP_Weapon",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Right",
+"HumanWeapon" : "EHT_DoubleHand_Fight",
+
+}
+{
+
+"ID" : "207",
+"ElementName" : "DHandWeapon_Stick1_1",
+"Tags" : "Weapon;DHand;Wizard;Female;Male;Right",
+"ObjectPath" : "Body/RightHand/DHandWeapn/DHandWeapon_Stick1_1",
+"Pos" : "ECP_Weapon",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Right",
+"HumanWeapon" : "EHT_DoubleHand_Wizard",
+
+}
+{
+
+"ID" : "208",
+"ElementName" : "DHandWeapon_Stick2_1",
+"Tags" : "Weapon;DHand;Wizard;Female;Male;Right",
+"ObjectPath" : "Body/RightHand/DHandWeapn/DHandWeapon_Stick2_1",
+"Pos" : "ECP_Weapon",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Right",
+"HumanWeapon" : "EHT_DoubleHand_Wizard",
+
+}
+{
+
+"ID" : "209",
+"ElementName" : "DHandWeapon_Stick3_1",
+"Tags" : "Weapon;DHand;Wizard;Female;Male;Right",
+"ObjectPath" : "Body/RightHand/DHandWeapn/DHandWeapon_Stick3_1",
+"Pos" : "ECP_Weapon",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Right",
+"HumanWeapon" : "EHT_DoubleHand_Wizard",
+
+}
+{
+
+"ID" : "210",
+"ElementName" : "C_GH_HandR",
+"Tags" : "Hand;Female;Male;Right",
+"ObjectPath" : "Body/RightHand/C_GH_HandR",
+"Pos" : "ECP_Hand",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Right",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "211",
+"ElementName" : "RWing1",
+"Tags" : "Wing;Female;Male;Right",
+"ObjectPath" : "Body/RWing/RWing1",
+"Pos" : "ECP_Wing",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Right",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "212",
+"ElementName" : "RWing2",
+"Tags" : "Wing;Female;Male;Right",
+"ObjectPath" : "Body/RWing/RWing2",
+"Pos" : "ECP_Wing",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Right",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "213",
+"ElementName" : "C_GH_Body_F1_1",
+"Tags" : "Body;Female",
+"ObjectPath" : "Body/C_GH_Body_F1_1",
+"Pos" : "ECP_Body",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "214",
+"ElementName" : "C_GH_Body_F1_2",
+"Tags" : "Body;Female",
+"ObjectPath" : "Body/C_GH_Body_F1_2",
+"Pos" : "ECP_Body",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "215",
+"ElementName" : "C_GH_Body_F2_1",
+"Tags" : "Body;Female",
+"ObjectPath" : "Body/C_GH_Body_F2_1",
+"Pos" : "ECP_Body",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "216",
+"ElementName" : "C_GH_Body_F2_2",
+"Tags" : "Body;Female",
+"ObjectPath" : "Body/C_GH_Body_F2_2",
+"Pos" : "ECP_Body",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "217",
+"ElementName" : "C_GH_Body_F3_1",
+"Tags" : "Body;Female",
+"ObjectPath" : "Body/C_GH_Body_F3_1",
+"Pos" : "ECP_Body",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "218",
+"ElementName" : "C_GH_Body_F3_2",
+"Tags" : "Body;Female",
+"ObjectPath" : "Body/C_GH_Body_F3_2",
+"Pos" : "ECP_Body",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "219",
+"ElementName" : "C_GH_Body_F4_1",
+"Tags" : "Body;Female",
+"ObjectPath" : "Body/C_GH_Body_F4_1",
+"Pos" : "ECP_Body",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "220",
+"ElementName" : "C_GH_Body_F4_2",
+"Tags" : "Body;Female",
+"ObjectPath" : "Body/C_GH_Body_F4_2",
+"Pos" : "ECP_Body",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "221",
+"ElementName" : "C_GH_Body_M1_1",
+"Tags" : "Body;Male",
+"ObjectPath" : "Body/C_GH_Body_M1_1",
+"Pos" : "ECP_Body",
+"Weight" : "1",
+"HumanType" : "EHT_Male",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "222",
+"ElementName" : "C_GH_Body_M2_1",
+"Tags" : "Body;Male",
+"ObjectPath" : "Body/C_GH_Body_M2_1",
+"Pos" : "ECP_Body",
+"Weight" : "1",
+"HumanType" : "EHT_Male",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "223",
+"ElementName" : "C_GH_Feet_F1_1L",
+"Tags" : "Foot;Female;Left",
+"ObjectPath" : "LeftFoot/C_GH_Feet_F1_1L",
+"Pos" : "ECP_Feet",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "224",
+"ElementName" : "C_GH_Feet_M1_1L",
+"Tags" : "Foot;Male;Left",
+"ObjectPath" : "LeftFoot/C_GH_Feet_M1_1L",
+"Pos" : "ECP_Feet",
+"Weight" : "1",
+"HumanType" : "EHT_Male",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "225",
+"ElementName" : "C_GH_Feet_F1_1R",
+"Tags" : "Foot;Female;Right",
+"ObjectPath" : "RightFoot/C_GH_Feet_F1_1R",
+"Pos" : "ECP_Feet",
+"Weight" : "1",
+"HumanType" : "EHT_Female",
+"HumanSide" : "EHT_Right",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "226",
+"ElementName" : "C_GH_Feet_M1_1R",
+"Tags" : "Foot;Male;Right",
+"ObjectPath" : "RightFoot/C_GH_Feet_M1_1R",
+"Pos" : "ECP_Feet",
+"Weight" : "1",
+"HumanType" : "EHT_Male",
+"HumanSide" : "EHT_Right",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "227",
+"ElementName" : "BloodLineFront1",
+"Tags" : "BloodLineFront",
+"ObjectPath" : "BloodLineShell/BloodLineFront1",
+"Pos" : "ECP_BloodLineFront",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "228",
+"ElementName" : "BloodLineFront2",
+"Tags" : "BloodLineFront",
+"ObjectPath" : "BloodLineShell/BloodLineFront2",
+"Pos" : "ECP_BloodLineFront",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "229",
+"ElementName" : "BloodLineFront3",
+"Tags" : "BloodLineFront",
+"ObjectPath" : "BloodLineShell/BloodLineFront3",
+"Pos" : "ECP_BloodLineFront",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "230",
+"ElementName" : "BloodLineFront4",
+"Tags" : "BloodLineFront",
+"ObjectPath" : "BloodLineShell/BloodLineFront4",
+"Pos" : "ECP_BloodLineFront",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "231",
+"ElementName" : "BloodLineFront5",
+"Tags" : "BloodLineFront",
+"ObjectPath" : "BloodLineShell/BloodLineFront5",
+"Pos" : "ECP_BloodLineFront",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "232",
+"ElementName" : "BloodLineFront6",
+"Tags" : "BloodLineFront",
+"ObjectPath" : "BloodLineShell/BloodLineFront6",
+"Pos" : "ECP_BloodLineFront",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "233",
+"ElementName" : "BloodLineFront7",
+"Tags" : "BloodLineFront",
+"ObjectPath" : "BloodLineShell/BloodLineFront7",
+"Pos" : "ECP_BloodLineFront",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "234",
+"ElementName" : "BloodLineFront8",
+"Tags" : "BloodLineFront",
+"ObjectPath" : "BloodLineShell/BloodLineFront8",
+"Pos" : "ECP_BloodLineFront",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}
+{
+
+"ID" : "235",
+"ElementName" : "Shadow",
+"Tags" : "Shadow",
+"ObjectPath" : "Shadow",
+"Pos" : "ECP_Shadow",
+"Weight" : "1",
+"HumanType" : "EHT_Both",
+"HumanSide" : "EHT_Left",
+"HumanWeapon" : "EHW_BareHand",
+
+}

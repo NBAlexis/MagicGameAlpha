@@ -76,8 +76,8 @@ public class CHumanoidDescElement : CMGDataElement
     {
         base.LoadData(sTextToParse);
         m_sObjectPath = (string)GetElementValue(sTextToParse, "ObjectPath", m_sObjectPath);
-        m_iWeight = (int)GetElementValue(sTextToParse, "Pos", m_iWeight);
         m_ePos = (EHumanoidComponentPos)GetElementValue(sTextToParse, "Pos", m_ePos);
+        m_iWeight = (int)GetElementValue(sTextToParse, "Weight", m_iWeight);
         m_eHumanType = (EHumanoidType)GetElementValue(sTextToParse, "HumanType", m_eHumanType);
         m_eHumanSide = (EHumanoidSide)GetElementValue(sTextToParse, "HumanSide", m_eHumanSide);
         m_eHumanWeapon = (EHumanoidWeapon)GetElementValue(sTextToParse, "HumanWeapon", m_eHumanWeapon);

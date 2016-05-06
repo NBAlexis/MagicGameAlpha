@@ -88,7 +88,6 @@ public class ACharactor : MonoBehaviour
     #region Model
 
     public ACharactorModel m_pModel;
-    public Transform m_pModelShell;
     public sfloat m_fModelSize = 1.0f;
 
     #endregion

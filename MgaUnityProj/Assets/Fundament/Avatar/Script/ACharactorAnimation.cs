@@ -63,6 +63,12 @@ public class ACharactorAnimation : MonoBehaviour
         m_fOnceAnimTime = fOnce;
     }
 
+    public void OnEnable()
+    {
+        m_fLastUpdate = Random.Range(-0.01f, 0.3f);
+        m_iAnimUpdateTime = Random.Range(0, 4);
+    }
+
     public void OnDisable()
     {
         m_eAnimType = EAnimationType.EAT_Idle;
@@ -110,6 +116,11 @@ public class ACharactorAnimation : MonoBehaviour
     }
 
     protected float m_fLastAnimSpeed = 1.0f;
+    protected float m_fLastUpdate = -1.0f;
+    protected const float m_fAnimUpdateSep = 0.15f;
+    protected const int m_iAnimUpdateSep = 3;
+    protected int m_iAnimUpdateTime = 0;
+
     public void Update()
     {
         if (null == m_pAnim 
@@ -118,6 +129,22 @@ public class ACharactorAnimation : MonoBehaviour
           || null == m_pOwner)
         {
             return;
+        }
+
+        m_fLastUpdate -= Time.deltaTime;
+        m_iAnimUpdateTime--;
+        if (m_fLastUpdate < 0.0f && m_iAnimUpdateTime < 0)
+        {
+            m_fLastUpdate += m_fAnimUpdateSep;
+            m_iAnimUpdateTime += m_iAnimUpdateSep;
+            if (!m_pAnim.enabled)
+            {
+                m_pAnim.enabled = true;
+            }
+        }
+        else if (m_pAnim.enabled)
+        {
+            m_pAnim.enabled = false;
         }
 
         float fDeltaTime = Time.deltaTime;
