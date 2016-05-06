@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Weapon_Shoot_R_RShoot_WoodStickShdowTex
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 60
+    topology: 0
+    firstVertex: 0
+    vertexCount: 28
+    localAABB:
+      m_Center: {x: -0.39949197, y: 0.0030444283, z: 0.013865299}
+      m_Extent: {x: 0.43543184, y: 0.047611833, z: 0.01168654}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer: 000001000200010000000300030004000100040003000500050006000400060005000700080009000a00090008000b000c000a0009000a000c000d000e000d000c000d000e000f001000110012001100100013001400150016001500140017001800160015001600180019001a001900180019001a001b00
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 9
+    m_VertexCount: 28
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 560
+    _typelessdata: b135133d4f8c36bd7fc90e3b00001c3f0000c03ef44191bcf07c4f3d7fc90e3babaa1a3f0000c83eb135133df07c4f3d7fc90e3b00001c3f0000c83ef44191bc4f8c36bd7fc90e3babaa1a3f0000c03e8fd372bdf07c4f3d7fc90e3b5555193f0000c83e8fd372bd8869d83c7fc90e3b5555193f0000c03e91bd55bff07c4f3d7fc90e3b0000183f0000c83e91bd55bf8869d83c7fc90e3b0000183f0000c03eb135133d4f8c36bd1752d13c0000183f0000c03ef44191bcf07c4f3d1752d13c5555193f0000c83ef44191bc4f8c36bd1752d13c5555193f0000c03eb135133df07c4f3d1752d13c0000183f0000c83e8fd372bdf07c4f3d1752d13cabaa1a3f0000c83e8fd372bd8869d83c1752d13cabaa1a3f0000c03e91bd55bff07c4f3d1752d13c00001c3f0000c83e91bd55bf8869d83c1752d13c00001c3f0000c03e8fd372bd8869d83c7fc90e3babaa1a3f0000c03e91bd55bf8869d83c1752d13c00001c3f0000c83e91bd55bf8869d83c7fc90e3b00001c3f0000c03e8fd372bd8869d83c1752d13cabaa1a3f0000c83e91bd55bff07c4f3d7fc90e3b0000183f0000c03e8fd372bdf07c4f3d1752d13c5555193f0000c83e8fd372bdf07c4f3d7fc90e3b5555193f0000c03e91bd55bff07c4f3d1752d13c0000183f0000c83ef44191bcf07c4f3d1752d13cabaa1a3f0000c83ef44191bcf07c4f3d7fc90e3babaa1a3f0000c03eb135133df07c4f3d1752d13c00001c3f0000c83eb135133df07c4f3d7fc90e3b00001c3f0000c03e
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -0.39949197, y: 0.0030444283, z: 0.013865299}
+    m_Extent: {x: 0.43543184, y: 0.047611833, z: 0.01168654}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 0

@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SHandWeapon_R2_RWeapon_ColorBlockSwordMatal
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    firstVertex: 0
+    vertexCount: 25
+    localAABB:
+      m_Center: {x: -0.0000030118972, y: -0.28524432, z: -0.0000030118972}
+      m_Extent: {x: 0.02985427, y: 0.2896751, z: 0.02985427}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer: 00000100020003000400050004000300060007000800090008000a000b000c000d000e000d000c000f0010000d0011000d0010001200130014000f00140013001500160017001800
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 9
+    m_VertexCount: 25
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 500
+    _typelessdata: af649939eb2d13bf4d8d9cb90000103f0000c03e7bbfefbcb80d7dbd7bbfefbc00000c3f0202c23ed8b2ef3cb80d7dbd7bbfefbc0000103f0202c23ed8b2ef3cb80d7dbd7bbfefbc0000103ffefdc53e4297f4bc2930913b4297f4bc00000c3f0000c83ea08af43c2930913b4297f4bc0000103f0000c83e7bbfefbcb80d7dbd7bbfefbc00000c3ffefdc53e7bbfefbcb80d7dbdd8b2ef3c0000103f0202c23eaf649939eb2d13bf4d8d9cb900000c3f0000c03ed8b2ef3cb80d7dbdd8b2ef3c00000c3f0202c23e7bbfefbcb80d7dbdd8b2ef3c01010d3f0000c83e7bbfefbcb80d7dbd7bbfefbc01010d3f0000c03ed8b2ef3cb80d7dbdd8b2ef3c00000c3ffefdc53e4297f4bc2930913ba08af43c0000103f0000c83e7bbfefbcb80d7dbdd8b2ef3c0000103ffefdc53ea08af43c2930913ba08af43c00000c3f0000c83e7bbfefbcb80d7dbd7bbfefbcfffe0e3f0000c03e4297f4bc2930913b4297f4bc0000103f0000c03e7bbfefbcb80d7dbdd8b2ef3cfffe0e3f0000c83ed8b2ef3cb80d7dbdd8b2ef3c01010d3f0000c83ea08af43c2930913b4297f4bc00000c3f0000c03ed8b2ef3cb80d7dbd7bbfefbc01010d3f0000c03eaf649939eb2d13bf4d8d9cb90000103f0000c83ed8b2ef3cb80d7dbd7bbfefbcfffe0e3f0000c03ed8b2ef3cb80d7dbdd8b2ef3cfffe0e3f0000c83e
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -0.0000030118972, y: -0.28524432, z: -0.0000030118972}
+    m_Extent: {x: 0.02985427, y: 0.2896751, z: 0.02985427}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 0

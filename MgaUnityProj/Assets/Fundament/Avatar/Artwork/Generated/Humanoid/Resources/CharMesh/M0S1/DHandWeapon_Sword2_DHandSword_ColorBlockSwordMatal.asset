@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DHandWeapon_Sword2_DHandSword_ColorBlockSwordMatal
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 42
+    topology: 0
+    firstVertex: 0
+    vertexCount: 20
+    localAABB:
+      m_Center: {x: -0.3401724, y: -0.00029637665, z: 0.0004206635}
+      m_Extent: {x: 0.7335299, y: 0.08532753, z: 0.047324512}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer: 0000010002000100000003000400010003000100040005000600030001000300060007000800050009000a000b000c000b000a000d000d000e000b000e000d000f0010000b000d000b001000110012000a001300
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 9
+    m_VertexCount: 20
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 400
+    _typelessdata: 2866c93e6a85b8bc8b8cdc390000b83e0000643fc079d8bdb5b03d3d8b8cdc39fefdb53e0000683f2866c93e54aab33c8b8cdc390000b83e0000683fc079d8bd9c400bbd8b8cdc39fefdb53e0000643fa0db7abd965bafbd7290433d0404b43e0000643fa0db7abdd024ae3d7290433d0404b43e0000683f146f89bf2f70493d8b8cdc390000b83e0000683f146f89bfb9dd4bbd8b8cdc390000b83e0000643fc079d8bdb5b03d3d8b8cdc390202b23e0000643fa0db7abdd024ae3d401e40bd0404b43e0000643fa0db7abd965bafbd401e40bd0404b43e0000643fc079d8bdb5b03d3d8b8cdc390202b23e0000683fa0db7abdd024ae3d401e40bd0404b43e0000683fc079d8bd9c400bbd8b8cdc390202b23e0000643f146f89bf2f70493d8b8cdc390000b03e0000683f146f89bfb9dd4bbd8b8cdc390000b03e0000643f2866c93e6a85b8bc8b8cdc390000b03e0000643f2866c93e54aab33c8b8cdc390000b03e0000683fc079d8bd9c400bbd8b8cdc39fefdb53e0000683fa0db7abd965bafbd7290433d0404b43e0000683f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -0.3401724, y: -0.00029637665, z: 0.0004206635}
+    m_Extent: {x: 0.7335299, y: 0.08532753, z: 0.047324512}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 0
