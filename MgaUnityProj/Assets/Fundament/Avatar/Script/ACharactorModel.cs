@@ -45,7 +45,6 @@ public class ACharactorModel : MonoBehaviour
     public ACharactorAnimation m_pAnim;
     public ACharactor m_pOwner;
     public bool m_bFixed = false;
-    public Transform m_pShell;
     public float m_fModelSize = 1.0f;
 
     public ECharactorVisible m_eVisible = ECharactorVisible.ECV_None;
