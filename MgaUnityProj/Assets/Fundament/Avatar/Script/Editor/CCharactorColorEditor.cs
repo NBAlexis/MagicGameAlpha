@@ -26,19 +26,19 @@ public class CCharactorColorEditor : TMGTextDataEditor<CCharactorColorElement>
     {
         base.EditorOneElement(element, bFocus);
 
-        GUILayout.BeginHorizontal();
+        m_pMainEditor.BeginLine();
 
         element.m_cColor = (Color)EditorField("Color", element.m_cColor);
         element.m_bMain = (bool) EditorField("IsMain", element.m_bMain);
 
-        GUILayout.EndHorizontal();
+        m_pMainEditor.EndLine();
 
-        GUILayout.BeginHorizontal();
+        m_pMainEditor.BeginLine();
 
         element.m_eMainColor = (ECharactorMainColor)EditorField("Main Color", element.m_eMainColor);
         element.m_eSubColor = (ECharactorSubColor)EditorField("Sub Color", element.m_eSubColor);
 
-        GUILayout.EndHorizontal();
+        m_pMainEditor.EndLine();
     }
 
     #endregion

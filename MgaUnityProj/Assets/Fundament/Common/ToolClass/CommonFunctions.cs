@@ -184,4 +184,19 @@ public class CommonFunctions
         strings.ToList().Sort();
         return strings.Aggregate("", (current, s) => current + s);
     }
+
+    public static int IntPow(int iBase, int iPow)
+    {
+        if (iPow < 1)
+        {
+            return 1;
+        }
+
+        int ret = iBase;
+        for (int i = 1; i < iPow; ++i)
+        {
+            ret *= iBase;
+        }
+        return ret;
+    }
 }
