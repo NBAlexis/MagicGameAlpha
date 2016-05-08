@@ -1,0 +1,37 @@
+﻿
+{
+
+"ID" : "0",
+"ElementName" : "Grass_0",
+"Tags" : "",
+"Repeat" : "1",
+"Size" : "1",
+"Block" : "False",
+"ResizeHeight" : "False",
+"RotateY" : "False",
+
+}
+{
+
+"ID" : "1",
+"ElementName" : "Stone_1",
+"Tags" : "",
+"Repeat" : "2",
+"Size" : "1",
+"Block" : "False",
+"ResizeHeight" : "False",
+"RotateY" : "False",
+
+}
+{
+
+"ID" : "2",
+"ElementName" : "Tree_2",
+"Tags" : "",
+"Repeat" : "5",
+"Size" : "1",
+"Block" : "False",
+"ResizeHeight" : "False",
+"RotateY" : "False",
+
+}

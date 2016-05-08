@@ -7,7 +7,7 @@ public class CreateBezierLine : ScriptableWizard {
 	public string LineName = "";
 	public int InterplateNumber = 4;
 	
-	[MenuItem ("GameObject/MGA/Create Bezier Line")]
+	[MenuItem ("MGA/Create/Common/Create Bezier Line")]
 	static void CreateWizard () {
 		++m_iCreatedNum;
 		

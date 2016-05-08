@@ -45,6 +45,11 @@ public class CommonFunctions
             sFileName = sPath.Substring(iPos + 1, sPath.Length - iPos - 1);
         }
 
+        if (!bWithoutDot)
+        {
+            return sFileName;
+        }
+
         iPos = sFileName.LastIndexOf('.');
         if (-1 == iPos)
         {
@@ -198,5 +203,15 @@ public class CommonFunctions
             ret *= iBase;
         }
         return ret;
+    }
+
+    public static Vector4 Rect2V4(Rect rc)
+    {
+        return new Vector4(rc.xMin, rc.yMin, rc.width, rc.height);
+    }
+
+    public static Rect V42Rect(Vector4 v)
+    {
+        return new Rect {xMin = v.x, yMin = v.y, width = v.z, height = v.w};
     }
 }

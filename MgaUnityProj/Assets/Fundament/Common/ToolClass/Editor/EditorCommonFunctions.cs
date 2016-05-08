@@ -95,7 +95,7 @@ public class EditorCommonFunctions
             bigTexture = newTexture;
         }
 
-        if (EPackColorFormat.ForcePng == eFormat || (shader.renderQueue > 2400 && EPackColorFormat.ForceJpg != eFormat))
+        if (EPackColorFormat.ForcePng == eFormat || ((null == shader || shader.renderQueue > 2400) && EPackColorFormat.ForceJpg != eFormat))
         {
             byte[] pngData = bigTexture.EncodeToPNG();
             if (pngData != null)
@@ -103,9 +103,16 @@ public class EditorCommonFunctions
                 File.WriteAllBytes(Application.dataPath + "/" + sFileName + ".png", pngData);
                 AssetDatabase.Refresh();
 
-                Material newMat = new Material(shader);
-                newMat.mainTexture = AssetDatabase.LoadAssetAtPath("Assets/" + sFileName + ".png", typeof(Texture2D)) as Texture2D;
-                AssetDatabase.CreateAsset(newMat, "Assets/" + sFileName + ".mat");
+                if (null != shader)
+                {
+                    Material newMat = new Material(shader)
+                    {
+                        mainTexture =
+                            AssetDatabase.LoadAssetAtPath("Assets/" + sFileName + ".png", typeof (Texture2D)) as
+                                Texture2D
+                    };
+                    AssetDatabase.CreateAsset(newMat, "Assets/" + sFileName + ".mat");                    
+                }
             }
         }
         else
@@ -116,9 +123,16 @@ public class EditorCommonFunctions
                 File.WriteAllBytes(Application.dataPath + "/" + sFileName + ".jpg", pngData);
                 AssetDatabase.Refresh();
 
-                Material newMat = new Material(shader);
-                newMat.mainTexture = AssetDatabase.LoadAssetAtPath("Assets/" + sFileName + ".jpg", typeof(Texture2D)) as Texture2D;
-                AssetDatabase.CreateAsset(newMat, "Assets/" + sFileName + ".mat");
+                if (null != shader)
+                {
+                    Material newMat = new Material(shader)
+                    {
+                        mainTexture =
+                            AssetDatabase.LoadAssetAtPath("Assets/" + sFileName + ".jpg", typeof (Texture2D)) as
+                                Texture2D
+                    };
+                    AssetDatabase.CreateAsset(newMat, "Assets/" + sFileName + ".mat");
+                }
             }
         }
         AssetDatabase.Refresh();

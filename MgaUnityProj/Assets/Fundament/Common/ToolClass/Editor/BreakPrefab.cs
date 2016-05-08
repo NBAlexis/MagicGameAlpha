@@ -4,7 +4,7 @@ using System.Collections;
 
 public class BreakPrefab {
 
-    [MenuItem("Assets/MGA/Disconnet Prefab")]
+    [MenuItem("MGA/CMDs/Common/Disconnet Prefab")]
     static void DisconnetPrefab()
     {
         GameObject disconnectingObj = Selection.activeObject as GameObject;

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CountLine
 {
-    [MenuItem("Assets/MGA/Count Line")]
+    [MenuItem("MGA/CMDs/Common/Count Line")]
     static void CountLineFunc()
     {
         int iFileNumber = 0;
@@ -33,7 +33,7 @@ public class CountLine
             }
         }
 
-        filePaths = Directory.GetFiles(Application.dataPath + "Games/", "*.cs",
+        filePaths = Directory.GetFiles(Application.dataPath + "/Games/", "*.cs",
                          SearchOption.AllDirectories);
         if (null != filePaths)
         {
