@@ -36,11 +36,11 @@ public class CSceneDecorate : TMGData<CSceneDecorateElement>
     public string m_sSceneType = "Default";
     public override string GetDefaultSavePath()
     {
-        return Application.dataPath + "/Fundament/BattleField/Resources/" + m_sSceneType + "SceneDecrate";
+        return Application.dataPath + "/Fundament/BattleField/Resources/" + m_sSceneType + "SceneDecorate";
     }
 
     public override string GetDefaultLoadPath()
     {
-        return m_sSceneType + "SceneDecrate";
+        return m_sSceneType + "SceneDecorate";
     }
 }

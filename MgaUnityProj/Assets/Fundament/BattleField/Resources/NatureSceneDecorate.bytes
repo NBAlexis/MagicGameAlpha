@@ -5,10 +5,10 @@
 "ElementName" : "Grass_0",
 "Tags" : "",
 "Repeat" : "1",
-"Size" : "1",
+"Size" : "2",
 "Block" : "False",
 "ResizeHeight" : "False",
-"RotateY" : "False",
+"RotateY" : "True",
 
 }
 {
@@ -17,9 +17,9 @@
 "ElementName" : "Stone_1",
 "Tags" : "",
 "Repeat" : "2",
-"Size" : "1",
-"Block" : "False",
-"ResizeHeight" : "False",
+"Size" : "2",
+"Block" : "True",
+"ResizeHeight" : "True",
 "RotateY" : "False",
 
 }
@@ -30,8 +30,8 @@
 "Tags" : "",
 "Repeat" : "5",
 "Size" : "1",
-"Block" : "False",
+"Block" : "True",
 "ResizeHeight" : "False",
-"RotateY" : "False",
+"RotateY" : "True",
 
 }

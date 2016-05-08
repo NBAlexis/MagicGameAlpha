@@ -18,7 +18,10 @@ public class ResourcesManager
             return (T)m_pCache[sKey];
         }
         T found = LoadFromResourcesFolder<T>(sResourcePath);
-        m_pCache.Add(sKey, found);
+        if (null != found)
+        {
+            m_pCache.Add(sKey, found);    
+        }
         return found;
     }
 
