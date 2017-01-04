@@ -38,7 +38,6 @@ public class CSceneDecorateEditor : TMGTextDataEditor<CSceneDecorateElement>
         element.m_iDecrateRepeat = (int)EditorField("Repeat", element.m_iDecrateRepeat);
         element.m_iDecrateSize = (int)EditorField("Size", element.m_iDecrateSize);
         element.m_bBlockPathfinding = (bool)EditorField("Block", element.m_bBlockPathfinding);
-        element.m_bResizeHeight = (bool)EditorField("ResizeHeight", element.m_bResizeHeight);
         element.m_bOnlyRotateY = (bool)EditorField("RotateY", element.m_bOnlyRotateY);
 
         m_pMainEditor.EndLine();

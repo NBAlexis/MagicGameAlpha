@@ -5,7 +5,6 @@ public class CSceneDecorateElement : CMGDataElement
     public int m_iDecrateRepeat = 1;
     public int m_iDecrateSize = 1;
     public bool m_bBlockPathfinding = false;
-    public bool m_bResizeHeight = false;
     public bool m_bOnlyRotateY = false;
 
     override public string GetString()
@@ -14,7 +13,6 @@ public class CSceneDecorateElement : CMGDataElement
         sRet += Write("Repeat", m_iDecrateRepeat);
         sRet += Write("Size", m_iDecrateSize);
         sRet += Write("Block", m_bBlockPathfinding);
-        sRet += Write("ResizeHeight", m_bResizeHeight);
         sRet += Write("RotateY", m_bOnlyRotateY);
 
         return sRet;
@@ -26,7 +24,6 @@ public class CSceneDecorateElement : CMGDataElement
         m_iDecrateRepeat = (int)GetElementValue(sTextToParse, "Repeat", m_iDecrateRepeat);
         m_iDecrateSize = (int)GetElementValue(sTextToParse, "Size", m_iDecrateSize);
         m_bBlockPathfinding = (bool)GetElementValue(sTextToParse, "Block", m_bBlockPathfinding);
-        m_bResizeHeight = (bool)GetElementValue(sTextToParse, "ResizeHeight", m_bResizeHeight);
         m_bOnlyRotateY = (bool)GetElementValue(sTextToParse, "RotateY", m_bOnlyRotateY);
     }
 }

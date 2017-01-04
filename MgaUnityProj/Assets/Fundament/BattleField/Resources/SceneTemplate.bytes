@@ -1,0 +1,81 @@
+﻿
+{
+
+"ID" : "1",
+"ElementName" : "LType",
+"Tags" : "",
+"Decorate" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/Docmap1.png",
+"Height" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/Heightmap1.png",
+"Ground" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/GroundMap1.png",
+
+}
+{
+
+"ID" : "2",
+"ElementName" : "HalfPlane",
+"Tags" : "",
+"Decorate" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/Docmap2.png",
+"Height" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/Heightmap2.png",
+"Ground" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/GroundMap2.png",
+
+}
+{
+
+"ID" : "3",
+"ElementName" : "CType",
+"Tags" : "",
+"Decorate" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/Docmap3.png",
+"Height" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/Heightmap3.png",
+"Ground" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/GroundMap3.png",
+
+}
+{
+
+"ID" : "4",
+"ElementName" : "OType",
+"Tags" : "",
+"Decorate" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/Docmap4.png",
+"Height" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/Heightmap4.png",
+"Ground" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/GroundMap4.png",
+
+}
+{
+
+"ID" : "5",
+"ElementName" : "Slash",
+"Tags" : "",
+"Decorate" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/Docmap5.png",
+"Height" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/Heightmap5.png",
+"Ground" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/GroundMap5.png",
+
+}
+{
+
+"ID" : "6",
+"ElementName" : "SType",
+"Tags" : "",
+"Decorate" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/Docmap6.png",
+"Height" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/Heightmap6.png",
+"Ground" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/GroundMap6.png",
+
+}
+{
+
+"ID" : "7",
+"ElementName" : "Ladder",
+"Tags" : "",
+"Decorate" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/Docmap7.png",
+"Height" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/Heightmap7.png",
+"Ground" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/GroundMap7.png",
+
+}
+{
+
+"ID" : "8",
+"ElementName" : "ZType",
+"Tags" : "",
+"Decorate" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/Docmap8.png",
+"Height" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/Heightmap8.png",
+"Ground" : "Assets/Fundament/BattleField/Artwork/Templates/T33X33/GroundMap8.png",
+
+}
