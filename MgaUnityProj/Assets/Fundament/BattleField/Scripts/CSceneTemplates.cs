@@ -6,6 +6,21 @@ public class CSceneTemplateElement : CMGDataElement
     public string m_sHeightPath = "";
     public string m_sGroundPath = "";
 
+    public override CMGDataElement GetDefault()
+    {
+        return new CSceneTemplateElement();
+    }
+
+    public override CMGDataElement Copy()
+    {
+        return new CSceneTemplateElement
+        {
+            m_sDecoratePath = m_sDecoratePath,
+            m_sHeightPath = m_sHeightPath,
+            m_sGroundPath = m_sGroundPath,
+        };
+    }
+
     override public string GetString()
     {
         string sRet = base.GetString();

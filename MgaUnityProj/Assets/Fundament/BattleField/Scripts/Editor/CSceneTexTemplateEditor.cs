@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.IO;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEditor;
 
 public class CSceneTexTemplateEditor : TMGTextDataEditor<CSceneGroudTemplateElement>
@@ -32,15 +30,13 @@ public class CSceneTexTemplateEditor : TMGTextDataEditor<CSceneGroudTemplateElem
         m_pEditingData.Load();
     }
 
-    protected override void EditorOneElement(CSceneGroudTemplateElement element, bool bFocus)
+    [MGADataEditor(typeof(CSceneGroudTemplateElement))]
+    protected static void EditOneElement(CSceneGroudTemplateElement element, int iLineStart)
     {
-        base.EditorOneElement(element, bFocus);
-
-        m_pMainEditor.BeginLine();
-
-        element.m_vUV = (Vector4)EditorField("UV", element.m_vUV);
-
-        m_pMainEditor.EndLine();
+        bool bBeginLine = false;
+        BeginLine(iLineStart, ref bBeginLine);
+        element.m_vUV = (Vector4)EditorField("UV", element.m_vUV, iLineStart, ref bBeginLine);
+        EndLine(ref bBeginLine);
     }
 
     #endregion

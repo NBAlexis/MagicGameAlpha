@@ -58,6 +58,24 @@ public class CHumanoidDescElement : CMGDataElement
     public EHumanoidSide m_eHumanSide = EHumanoidSide.EHT_Left;
     public EHumanoidWeapon m_eHumanWeapon = EHumanoidWeapon.EHW_BareHand;
 
+    public override CMGDataElement GetDefault()
+    {
+        return new CHumanoidDescElement();
+    }
+
+    public override CMGDataElement Copy()
+    {
+        return new CHumanoidDescElement
+        {
+            m_sObjectPath = m_sObjectPath,
+            m_iWeight = m_iWeight,
+            m_ePos = m_ePos,
+            m_eHumanType = m_eHumanType,
+            m_eHumanSide = m_eHumanSide,
+            m_eHumanWeapon = m_eHumanWeapon,
+        };
+    }
+
     override public string GetString()
     {
         string sRet = base.GetString();

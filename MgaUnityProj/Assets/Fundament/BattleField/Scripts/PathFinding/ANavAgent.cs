@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public enum EPathProgress
 {
@@ -41,10 +42,10 @@ public struct SMoveTask
         }
     }
     */
-    public int m_iStep;
     public Vector3 m_vTargetPoint;
 
-    public Vector2[] m_vPathFound;
+    public Stack<Vector2> m_vPathFound;
+    public Vector2 m_vNext;
     /*
     private Vector2[] _vPathFound;
     public Vector2[] m_vPathFound
@@ -152,7 +153,6 @@ public class ANavAgent : MonoBehaviour
     }
 
     public int m_iAdjustFailed = 0;
-    private bool m_bStraightLinePath = false;
     public void OnDrawGizmos()
     {
         if (EPathProgress.EPP_Walking == m_Task.m_eProgress || EPathProgress.EPP_Attacking == m_Task.m_eProgress)
@@ -167,26 +167,20 @@ public class ANavAgent : MonoBehaviour
 
         Gizmos.color = new Color(0.0f, 0.0f, 1.0f);
         Gizmos.DrawCube(m_Task.m_vTargetPoint, new Vector3(0.5f, 1.0f, 0.5f));
-        if (m_bStraightLinePath)
+        switch (m_iAdjustFailed)
         {
-            Gizmos.color = new Color(0.0f, 1.0f, 0.0f);
-        }
-        else
-        {
-            switch (m_iAdjustFailed)
-            {
-                case 0:
-                    Gizmos.color = new Color(0.0f, 1.0f, 1.0f);
-                    break;
-                case 1:
-                    Gizmos.color = new Color(1.0f, 1.0f, 0.0f);
-                    break;
-                case 2:
-                    Gizmos.color = new Color(1.0f, 0.0f, 0.0f);
-                    break;
-            }
+            case 0:
+                Gizmos.color = new Color(0.0f, 1.0f, 1.0f);
+                break;
+            case 1:
+                Gizmos.color = new Color(1.0f, 1.0f, 0.0f);
+                break;
+            case 2:
+                Gizmos.color = new Color(1.0f, 0.0f, 0.0f);
+                break;
         }
 
+        /*
         if (null != m_Task.m_vPathFound)
         {
             for (int i = (m_Task.m_iStep - 1) < 0 ? 0 : (m_Task.m_iStep - 1); i < m_Task.m_vPathFound.Length - 1; ++i)
@@ -195,6 +189,7 @@ public class ANavAgent : MonoBehaviour
                                 new Vector3(m_Task.m_vPathFound[i + 1].x, transform.position.y, m_Task.m_vPathFound[i + 1].y));
             }
         }
+        */
 
         Gizmos.color = new Color(1.0f, 0.0f, 1.0f);
         Gizmos.DrawLine(new Vector3(m_vLastPos.x, transform.position.y, m_vLastPos.y),
@@ -293,42 +288,36 @@ public class ANavAgent : MonoBehaviour
 
         if (EPathProgress.EPP_Walking == m_Task.m_eProgress)
         {
-            int iTargetStep = m_Task.m_iStep;
-            if (iTargetStep >= m_Task.m_vPathFound.Length - 1 && m_Task.m_vPathFound.Length > 0)
+            if (0 == m_Task.m_vPathFound.Count)
             {
-                if ((m_vLastPos - m_Task.m_vPathFound[m_Task.m_vPathFound.Length - 1]).sqrMagnitude < m_fRadius * m_fRadius * 0.25f)
+                if ((m_vLastPos - m_Task.m_vNext).sqrMagnitude < m_fRadius * m_fRadius * 0.25f)
                 {
                     m_Task.m_eProgress = EPathProgress.EPP_Done;
-                }
-                else
-                {
-                    iTargetStep = m_Task.m_vPathFound.Length - 1;
                 }
             }
             else
             {
-                if ((m_vLastPos - m_Task.m_vPathFound[iTargetStep]).sqrMagnitude < m_fRadius * m_fRadius * 4.0f)
+                if ((m_vLastPos - m_Task.m_vNext).sqrMagnitude < m_fRadius * m_fRadius * 4.0f)
                 {
-                    ++m_Task.m_iStep;
-                    ++iTargetStep;
+                    m_Task.m_vNext = m_Task.m_vPathFound.Pop();
                 }
             }
 
-            if (m_Task.m_bAttack && null != m_Task.m_pTarget &&
-                (m_Task.m_pTarget.m_vLastPos - m_vLastPos).sqrMagnitude <= m_Task.m_fStopDistance * m_Task.m_fStopDistance)
+            if (m_Task.m_bAttack 
+             && null != m_Task.m_pTarget 
+             && (m_Task.m_pTarget.m_vLastPos - m_vLastPos).sqrMagnitude <= m_Task.m_fStopDistance * m_Task.m_fStopDistance)
             {
                 m_Task.m_eProgress = EPathProgress.EPP_Attacking;
                 m_fLastSpeed -= 5.0f * m_fMoveSpeed * fDeltaTime;
                 m_vForce = new Vector2(0.0f, 0.0f);
             }
 
-            //m_vLastSpeed.Normalize();
             if (EPathProgress.EPP_Walking == m_Task.m_eProgress)
             {
 #if UNITY_EDITOR
-                m_vDebugLastTo = m_Task.m_vPathFound[iTargetStep];
+                m_vDebugLastTo = m_Task.m_vNext;
 #endif
-                Vector2 vWantedDir = (m_Task.m_vPathFound[iTargetStep] - m_vLastPos).normalized;
+                Vector2 vWantedDir = (m_Task.m_vNext - m_vLastPos).normalized;
                 if (Vector2.Dot(vWantedDir, m_vLastSpeed) > 0.9f)
                 {
                     m_vLastSpeed = vWantedDir;
@@ -379,12 +368,11 @@ public class ANavAgent : MonoBehaviour
                 vTargetPos += m_vLastSpeed * m_fLastSpeed * fDeltaTime;
             }
 
-            //TODO Check Collid world
-            /*
-            if (m_pOwner.FindNearestPoly(vTargetPos, true) < 0)
+            if (!m_pOwner.IsWalkable(vTargetPos, m_uiChannel))
             {
                 m_bBlockedByWorld = true;
-#if !WORLD_CUT_CORRECT
+                //TODO world collide
+#if WORLD_CUT_CORRECT
                 if (EPathProgress.EPP_Walking == m_Task.m_eProgress)
                 {
                     int iStep = Mathf.Clamp(m_Task.m_iStep, 1, m_Task.m_vPathFound.Length - 1);
@@ -423,8 +411,8 @@ public class ANavAgent : MonoBehaviour
                 }
 #else
                 m_vLastPos = vTargetPos;
-                float fHeight = m_bNeedHeight ? GetHeight() : 0.0f;
-                transform.position = new Vector3(m_vLastPos.x, fHeight + m_fHeight, m_vLastPos.y);
+                //float fHeight = m_bNeedHeight ? GetHeight() : 0.0f; //TODO 
+                //transform.position = new Vector3(m_vLastPos.x, fHeight + m_fHeight, m_vLastPos.y);//TODO 
 #endif
             }
             else
@@ -432,7 +420,6 @@ public class ANavAgent : MonoBehaviour
                 m_vLastPos = vTargetPos;
                 SetPos(new Vector3(m_vLastPos.x, GetHeight(), m_vLastPos.y));
             }
-             */
         }
 
         //Deal with block
@@ -468,17 +455,15 @@ public class ANavAgent : MonoBehaviour
                     float fStopDist = m_fAttackRange + m_fRadius + m_Task.m_pTarget.m_fRadius;
                     vTarget = m_pOwner.GetShootPos(
                         m_Task.m_pTarget.m_vLastPos, 
-                        m_fRadius, 
                         fStopDist,
                         (fStopDist - m_Task.m_pTarget.m_fRadius) * 0.5f + m_Task.m_pTarget.m_fRadius,
                         m_uiChannel, 
                         out bFound);
                 }
-                Vector2[] path = GetAPath(m_Task.m_vTargetPoint, m_Task.m_pTarget, out result);
+                Stack<Vector2> path = GetAPath(m_Task.m_vTargetPoint, m_Task.m_pTarget, out result);
                 if (EPathRes.EPR_Done == result)
                 {
                     m_Task.m_vPathFound = path;
-                    m_Task.m_iStep = 0;
                     m_Task.m_fBlockTime = 0.0f;
                     m_Task.m_fNotMoveTime = 0.0f;
                     m_Task.m_fWalkTime = 0.0f;
@@ -499,17 +484,15 @@ public class ANavAgent : MonoBehaviour
                     float fStopDist = m_fAttackRange + m_fRadius + m_Task.m_pTarget.m_fRadius;
                     vTarget = m_pOwner.GetShootPos(
                         m_Task.m_pTarget.m_vLastPos, 
-                        m_fRadius, 
                         fStopDist,
                         (fStopDist - m_Task.m_pTarget.m_fRadius) * 0.5f + m_Task.m_pTarget.m_fRadius,
                         m_uiChannel, 
                         out bFound);
                 }
-                Vector2[] path = GetAPath(m_Task.m_vTargetPoint, m_Task.m_pTarget, out result);
+                Stack<Vector2> path = GetAPath(m_Task.m_vTargetPoint, m_Task.m_pTarget, out result);
                 if (EPathRes.EPR_Done == result)
                 {
                     m_Task.m_vPathFound = path;
-                    m_Task.m_iStep = 0;
                     m_Task.m_fBlockTime = 0.0f;
                     m_Task.m_fNotMoveTime = 0.0f;
                     m_Task.m_fWalkTime = 0.0f;
@@ -526,7 +509,7 @@ public class ANavAgent : MonoBehaviour
 
     public Vector3[] m_vFound = null;
 
-    private Vector2[] GetAPath(Vector2 vTarget, ANavAgent pTarget, out EPathRes result)
+    private Stack<Vector2> GetAPath(Vector2 vTarget, ANavAgent pTarget, out EPathRes result)
     {
         result = EPathRes.EPR_Done;
         return null;
@@ -602,23 +585,21 @@ public class ANavAgent : MonoBehaviour
 
     public void MoveTo(Vector2 vPos, bool bAttack = false, float fStopDist = 0.01f, ANavAgent pTarget = null)
     {
-        /*
-        EPathFindingConst result = EPathFindingConst.NoPath;
+        EPathRes result = EPathRes.EPR_NoPath;
         if (m_bBuilding)
         {
-            return result;
+            return;
         }
 
         if (null != m_pOwner)
         {
-            Vector2[] path = GetAPath(vPos, pTarget, out result, out m_bStraightLinePath);
+            Stack<Vector2> path = GetAPath(vPos, pTarget, out result);
 
-            if (EPathFindingConst.NoPath == result)
+            if (EPathRes.EPR_NoPath == result)
             {
                 m_Task.m_eProgress = EPathProgress.EPP_GiveUp;
                 m_Task.m_vPathFound = null;
                 m_Task.m_vTargetPoint = vPos;
-                m_Task.m_iStep = 0;
                 m_Task.m_bAttack = bAttack; //for attack, change to hold
                 m_Task.m_fBlockTime = 0.0f;
                 m_Task.m_fNotMoveTime = 0.0f;
@@ -632,7 +613,6 @@ public class ANavAgent : MonoBehaviour
                 m_Task.m_eProgress = EPathProgress.EPP_Walking;
                 m_Task.m_vPathFound = path;
                 m_Task.m_vTargetPoint = vPos;
-                m_Task.m_iStep = 0;
                 m_Task.m_bAttack = bAttack;
                 m_Task.m_fBlockTime = 0.0f;
                 m_Task.m_fNotMoveTime = 0.0f;
@@ -643,8 +623,7 @@ public class ANavAgent : MonoBehaviour
             }
         }
 
-        return result;
-        */
+        return;
     }
 
     public void Attack(ANavAgent pTarget)

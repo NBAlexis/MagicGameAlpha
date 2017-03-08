@@ -7,6 +7,22 @@ public class CSceneTextureElement : CMGDataElement
     public int m_iRotNumber = 0;
     public int m_iTextureCount = 0;
 
+    public override CMGDataElement GetDefault()
+    {
+        return new CSceneTextureElement();
+    }
+
+    public override CMGDataElement Copy()
+    {
+        return new CSceneTextureElement
+        {
+            m_iTemplate = m_iTemplate,
+            m_bReflect = m_bReflect,
+            m_iRotNumber = m_iRotNumber,
+            m_iTextureCount = m_iTextureCount,
+        };
+    }
+
     override public string GetString()
     {
         string sRet = base.GetString();

@@ -7,6 +7,22 @@ public class CSceneDecorateElement : CMGDataElement
     public bool m_bBlockPathfinding = false;
     public bool m_bOnlyRotateY = false;
 
+    public override CMGDataElement GetDefault()
+    {
+        return new CSceneDecorateElement();
+    }
+
+    public override CMGDataElement Copy()
+    {
+        return new CSceneDecorateElement
+        {
+            m_iDecrateRepeat = m_iDecrateRepeat,
+            m_iDecrateSize = m_iDecrateSize,
+            m_bBlockPathfinding = m_bBlockPathfinding,
+            m_bOnlyRotateY = m_bOnlyRotateY
+        };
+    }
+
     override public string GetString()
     {
         string sRet = base.GetString();

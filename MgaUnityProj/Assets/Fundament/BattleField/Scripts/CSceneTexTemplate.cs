@@ -5,6 +5,19 @@ public class CSceneGroudTemplateElement : CMGDataElement
 {
     public Vector4 m_vUV = new Vector4(0.0f, 0.0f, 1.0f, 1.0f);
 
+    public override CMGDataElement GetDefault()
+    {
+        return new CSceneGroudTemplateElement();
+    }
+
+    public override CMGDataElement Copy()
+    {
+        return new CSceneGroudTemplateElement
+        {
+            m_vUV = m_vUV,
+        };
+    }
+
     override public string GetString()
     {
         string sRet = base.GetString();

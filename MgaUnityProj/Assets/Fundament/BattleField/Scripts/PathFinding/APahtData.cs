@@ -37,6 +37,8 @@ public class COneGrid
     public float m_fGValue;
     public float m_fHValue;
 
+    public bool m_bOccupied = false; //TODO initial occupy
+
 #if DebugAStar
     public COneGrid[] m_pAllConnected;
     public float[] m_fConnectDist;
@@ -372,15 +374,23 @@ public class APahtData : MonoBehaviour
 
     #endregion
 
-	public void Start () 
+    #region Constants
+
+    public const float m_fPushAwayRate = 300.0f;
+    public const float m_fPushAwayRateBuilding = 3.0f;
+    public const float m_fPushAwayRatePawn = 1.0f;
+
+    #endregion
+
+    public void Start () 
     {
 	
 	}
 	
     public void Update()
     {
-	
-	}
+        ProcessAgentAvoidence();
+    }
 
     #region Dynamic Change
 
@@ -5278,19 +5288,177 @@ public class APahtData : MonoBehaviour
 
     #region Agent
 
-    public void RegisterAgent(ANavAgent agent)
+    [HideInInspector]
+    public List<ANavAgent> m_pAgents = null;
+    [HideInInspector]
+    public List<ANavAgent> m_pActiveAgents = null;
+
+    public void ClearAgents()
     {
-        
+        m_pAgents = new List<ANavAgent>();
+        m_pActiveAgents = new List<ANavAgent>();
+        m_iAgentID = 0;
     }
 
-    public void UnRegisterAgent(ANavAgent agent)
+    protected int m_iAgentID = 0;
+
+    public void RegisterAgent(ANavAgent pAgent)
     {
-        
+        if (null == m_pAgents)
+        {
+            m_pAgents = new List<ANavAgent>();
+        }
+        if (null == m_pActiveAgents)
+        {
+            m_pActiveAgents = new List<ANavAgent>();
+        }
+        if (null == pAgent || null == m_pAgents || null == m_pActiveAgents)
+        {
+            CRuntimeLogger.LogWarning(string.Format("Add Nav Agent {0} to {1} and {2} not work", pAgent, m_pAgents, m_pActiveAgents));
+            return;
+        }
+        if (m_pAgents.Contains(pAgent))
+        {
+            if (!m_pActiveAgents.Contains(pAgent))
+            {
+                m_pActiveAgents.Add(pAgent);
+            }
+            return;
+        }
+        //CRuntimeLogger.LogWarning("!!!!!!!!!!!!!!!!!! Regist" + pAgent.name);
+        pAgent.m_pOwner = this;
+        pAgent.m_iID = m_iAgentID;
+        ++m_iAgentID;
+        m_pAgents.Add(pAgent);
+        m_pActiveAgents.Add(pAgent);        
     }
 
-    public Vector3 GetShootPos(Vector2 vTarget, float fRadius, float fMaxDist, float fMinDist, uint channel, out bool bFound)
+    public void UnRegisterAgent(ANavAgent pAgent)
+    {
+        if (null == m_pAgents || null == m_pActiveAgents)
+        {
+            return;
+        }
+
+        int iIndex = m_pAgents.IndexOf(pAgent);
+        if (iIndex >= 0)
+        {
+            m_pAgents.RemoveAt(iIndex);
+        }
+        m_pActiveAgents.Remove(pAgent);        
+    }
+
+    public void ActivateAgent(ANavAgent agent)
+    {
+        if (!m_pActiveAgents.Contains(agent))
+        {
+            m_pActiveAgents.Add(agent);
+        }
+    }
+
+    public void DeActivateAgent(ANavAgent agent)
+    {
+        m_pActiveAgents.Remove(agent);
+    }
+
+    /// <summary>
+    /// push away active agents
+    /// </summary>
+    private void ProcessAgentAvoidence()
+    {
+        int iCheckingCount = m_pActiveAgents.Count;
+        for (int i = 0; i < iCheckingCount - 1; ++i)
+        {
+            ANavAgent pAgent1 = m_pActiveAgents[i];
+            int iPiror1 = pAgent1.m_iRealAvoidenceLevel * iCheckingCount + pAgent1.m_iID;
+            int iCamp1 = pAgent1.m_iCamp;
+            byte iPiror3 = pAgent1.m_byAvoidenceLevel;
+            for (int j = i + 1; j < iCheckingCount; ++j)
+            {
+                ANavAgent pAgent2 = m_pActiveAgents[j];
+                if (pAgent1.m_uiChannel == pAgent2.m_uiChannel)
+                {
+                    Vector2 v12 = pAgent1.m_vGroundPos - pAgent2.m_vGroundPos;
+
+                    //AABB Test
+                    if (
+                        Mathf.Abs(v12.x) < pAgent1.m_fRadius + pAgent2.m_fRadius 
+                     && Mathf.Abs(v12.y) < pAgent1.m_fRadius + pAgent2.m_fRadius)
+                    {
+                        float fRate = v12.magnitude;
+                        if (fRate <= 0.0001f)
+                        {
+                            v12 = pAgent1.m_vGroundPos - pAgent2.m_vGroundPos + new Vector2(Random.Range(-0.1f, 0.1f), Random.Range(-0.1f, 0.1f));
+                            fRate = v12.magnitude;
+                        }
+                        fRate = (pAgent1.m_fRadius + pAgent2.m_fRadius - fRate) 
+                              * (pAgent1.m_fRadius + pAgent2.m_fRadius) * m_fPushAwayRate;
+                        int iPiror2 = pAgent2.m_iRealAvoidenceLevel * iCheckingCount + pAgent2.m_iID;
+                        byte iPiror4 = pAgent2.m_byAvoidenceLevel;
+                        bool bIsBuilding1 = pAgent1.m_bBuilding;
+                        bool bIsBuilding2 = pAgent1.m_bBuilding;
+                        if (fRate > 0.0f)
+                        {
+                            if (iCamp1 == pAgent2.m_iCamp)
+                            {
+                                if (iPiror1 > iPiror2)
+                                {
+                                    pAgent2.m_vForce -= fRate * v12.normalized * (bIsBuilding1 ? m_fPushAwayRateBuilding : m_fPushAwayRatePawn);
+                                }
+                                else
+                                {
+                                    pAgent1.m_vForce += fRate * v12.normalized * (bIsBuilding2 ? m_fPushAwayRateBuilding : m_fPushAwayRatePawn);
+                                }
+                            }
+                            else
+                            {
+                                if (iPiror3 > iPiror4)
+                                {
+                                    pAgent2.m_vForce -= fRate * v12.normalized * (bIsBuilding1 ? m_fPushAwayRateBuilding : m_fPushAwayRatePawn);
+                                }
+                                else if (iPiror3 < iPiror4)
+                                {
+                                    pAgent1.m_vForce += fRate * v12.normalized * (bIsBuilding2 ? m_fPushAwayRateBuilding : m_fPushAwayRatePawn);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //TODO start from nearest
+    //TODO distinguish air and ground
+    //TODO make this function S2DPoint
+    /// <summary>
+    /// return a shoot pos
+    /// </summary>
+    /// <param name="vTarget"></param>
+    /// <param name="fMaxDist"></param>
+    /// <param name="fMinDist"></param>
+    /// <param name="channel"></param>
+    /// <param name="bFound"></param>
+    /// <returns></returns>
+    public Vector2 GetShootPos(Vector2 vTarget, float fMaxDist, float fMinDist, uint channel, out bool bFound)
     {
         bFound = false;
+        short minRadius = (short)Mathf.CeilToInt(fMinDist);
+        short maxRadius = (short)Mathf.CeilToInt(fMaxDist);
+        S2DPoint start = ((S2DPoint)vTarget).ToValid();
+        for (short ii = minRadius; ii < maxRadius; ++ii)
+        {
+            int maxk = S2DPoint.GetRadiusNumber(ii);
+            for (int kk = 0; kk < maxk; ++kk)
+            {
+                S2DPoint pt = S2DPoint.GetRadiusPoint(start, ii, kk);
+                if (pt.m_bValid && GridMath.m_byWalkable == m_byGridStateData[pt])
+                {
+                    bFound = true;
+                    return pt.ToV2();
+                }
+            }
+        }
         return vTarget;
     }
 
@@ -5299,33 +5467,89 @@ public class APahtData : MonoBehaviour
         return transform.position;
     }
 
+    public bool IsWalkable(Vector2 pos, uint uiChannel)
+    {
+        S2DPoint pt = pos;
+        if (!pt.m_bValid)
+        {
+            return false;
+        }
+
+        pt.ToValid();
+        return m_pGrids[pt.m_iX, pt.m_iY].m_bOccupied;
+    }
+
     public Vector2 GetNearPos(Vector2 pos)
     {
         S2DPoint gridpos = pos;
         return GetNearGrid(0, gridpos).ToV2();
     }
 
+    /// <summary>
+    /// return the height of a position on grids
+    /// </summary>
+    /// <param name="pos"></param>
+    /// <returns></returns>
     public float GetHeight(Vector2 pos)
     {
         //go to valid pos at first
-        S2DPoint gridpos = pos;
-        gridpos = GetNearGrid(0, gridpos);
-        Vector2 gridCenter = gridpos.ToV2();
+        S2DPoint gd1 = pos;
+        gd1 = GetNearGrid(0, gd1);
+        Vector2 gridCenter = gd1.ToV2();
 
-        float ht1 = m_fGridHeightData[gridpos];
+        
         int iDeltaX = pos.x > gridCenter.x ? 1 : -1;
         int iDeltaY = pos.y > gridCenter.y ? 1 : -1;
 
-        S2DPoint gd2 = new S2DPoint(gridpos.m_iX + iDeltaX, gridpos.m_iY).ToValid();
-        S2DPoint gd3 = new S2DPoint(gridpos.m_iX, gridpos.m_iY + iDeltaY).ToValid();
-        S2DPoint gd4 = new S2DPoint(gridpos.m_iX + iDeltaX, gridpos.m_iY + iDeltaY).ToValid();
+        S2DPoint gd2 = new S2DPoint(gd1.m_iX + iDeltaX, gd1.m_iY).ToValid();
+        S2DPoint gd3 = new S2DPoint(gd1.m_iX, gd1.m_iY + iDeltaY).ToValid();
+        S2DPoint gd4 = new S2DPoint(gd1.m_iX + iDeltaX, gd1.m_iY + iDeltaY).ToValid();
 
-        return 0.0f;
+        float ht1 = m_fGridHeightData[gd1];
+        float ht2 = m_fGridHeightData[gd2];
+        float ht3 = m_fGridHeightData[gd3];
+        float ht4 = m_fGridHeightData[gd4];
+
+        float fDist1 = (pos - gd1.ToV2()).sqrMagnitude + 0.001f;
+        float fDist2 = (pos - gd2.ToV2()).sqrMagnitude + 0.001f;
+        float fDist3 = (pos - gd3.ToV2()).sqrMagnitude + 0.001f;
+        float fDist4 = (pos - gd4.ToV2()).sqrMagnitude + 0.001f;
+
+        return (ht1 * fDist1 / (fDist1 + fDist2) + ht2 * fDist2 / (fDist1 + fDist2)) * fDist1 / (fDist1 + fDist3)
+             + (ht3 * fDist3 / (fDist3 + fDist4) + ht4 * fDist4 / (fDist3 + fDist4)) * fDist3 / (fDist1 + fDist3);
     }
 
+    /// <summary>
+    /// return the normal of position on grids
+    /// </summary>
+    /// <param name="pos"></param>
+    /// <returns></returns>
     public Vector3 GetNormal(Vector2 pos)
     {
-        return pos;
+        S2DPoint gd1 = pos;
+        gd1 = GetNearGrid(0, gd1);
+        Vector2 gridCenter = gd1.ToV2();
+
+
+        int iDeltaX = pos.x > gridCenter.x ? 1 : -1;
+        int iDeltaY = pos.y > gridCenter.y ? 1 : -1;
+
+        S2DPoint gd2 = new S2DPoint(gd1.m_iX + iDeltaX, gd1.m_iY).ToValid();
+        S2DPoint gd3 = new S2DPoint(gd1.m_iX, gd1.m_iY + iDeltaY).ToValid();
+        S2DPoint gd4 = new S2DPoint(gd1.m_iX + iDeltaX, gd1.m_iY + iDeltaY).ToValid();
+
+        Vector3 ht1 = m_v3NormalData[gd1];
+        Vector3 ht2 = m_v3NormalData[gd2];
+        Vector3 ht3 = m_v3NormalData[gd3];
+        Vector3 ht4 = m_v3NormalData[gd4];
+
+        float fDist1 = (pos - gd1.ToV2()).sqrMagnitude + 0.001f;
+        float fDist2 = (pos - gd2.ToV2()).sqrMagnitude + 0.001f;
+        float fDist3 = (pos - gd3.ToV2()).sqrMagnitude + 0.001f;
+        float fDist4 = (pos - gd4.ToV2()).sqrMagnitude + 0.001f;
+
+        return (ht1 * fDist1 / (fDist1 + fDist2) + ht2 * fDist2 / (fDist1 + fDist2)) * fDist1 / (fDist1 + fDist3)
+             + (ht3 * fDist3 / (fDist3 + fDist4) + ht4 * fDist4 / (fDist3 + fDist4)) * fDist3 / (fDist1 + fDist3);
     }
 
     #endregion

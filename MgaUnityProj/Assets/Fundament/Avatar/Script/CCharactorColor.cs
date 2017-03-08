@@ -27,6 +27,22 @@ public class CCharactorColorElement : CMGDataElement
     public ECharactorMainColor m_eMainColor = ECharactorMainColor.ECMC_1;
     public ECharactorSubColor m_eSubColor = ECharactorSubColor.ECSC_1;
 
+    public override CMGDataElement GetDefault()
+    {
+        return new CCharactorColorElement();
+    }
+
+    public override CMGDataElement Copy()
+    {
+        return new CCharactorColorElement
+        {
+            m_cColor = m_cColor,
+            m_bMain = m_bMain,
+            m_eMainColor = m_eMainColor,
+            m_eSubColor = m_eSubColor
+        };
+    }
+
     override public string GetString()
     {
         string sRet = base.GetString();

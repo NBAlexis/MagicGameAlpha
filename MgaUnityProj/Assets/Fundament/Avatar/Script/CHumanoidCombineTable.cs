@@ -4,6 +4,18 @@ public class CHumanoidCombineTableElement : CMGDataElement
 {
     public string[] m_sCombine = new string[0];
 
+    public override CMGDataElement GetDefault()
+    {
+        return new CHumanoidCombineTableElement();
+    }
+
+    public override CMGDataElement Copy()
+    {
+        CHumanoidCombineTableElement ret = new CHumanoidCombineTableElement();
+        m_sCombine.CopyTo(ret.m_sCombine, 0);
+        return ret;
+    }
+
     override public string GetString()
     {
         string sRet = base.GetString();

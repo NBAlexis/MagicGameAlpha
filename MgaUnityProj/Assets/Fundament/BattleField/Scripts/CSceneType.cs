@@ -17,6 +17,22 @@ public class CSceneTypeElement : CMGDataElement
     public bool m_bCanRot = false;
     public ESceneEdgeType m_eEdgeType = ESceneEdgeType.ESET_Water;
 
+    public override CMGDataElement GetDefault()
+    {
+        return new CSceneTypeElement();
+    }
+
+    public override CMGDataElement Copy()
+    {
+        return new CSceneTypeElement
+        {
+            m_iCliffType = m_iCliffType,
+            m_bHasGroundOffset = m_bHasGroundOffset,
+            m_bCanRot = m_bCanRot,
+            m_eEdgeType = m_eEdgeType,
+        };
+    }
+
     override public string GetString()
     {
         string sRet = base.GetString();

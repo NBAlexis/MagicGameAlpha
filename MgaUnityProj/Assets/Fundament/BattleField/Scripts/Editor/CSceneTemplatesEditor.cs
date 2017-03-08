@@ -1,6 +1,4 @@
-﻿using UnityEngine;
-using System.Collections;
-using UnityEditor;
+﻿using UnityEditor;
 
 public class CSceneTemplatesEditor : TMGTextDataEditor<CSceneTemplateElement>
 {
@@ -22,17 +20,17 @@ public class CSceneTemplatesEditor : TMGTextDataEditor<CSceneTemplateElement>
         m_pEditingData.Load();
     }
 
-    protected override void EditorOneElement(CSceneTemplateElement element, bool bFocus)
+    [MGADataEditor(typeof(CSceneTemplateElement))]
+    protected static void EditOneElement(CSceneTemplateElement element, int iLineStart)
     {
-        base.EditorOneElement(element, bFocus);
+        bool bBeginLine = false;
+        BeginLine(iLineStart, ref bBeginLine);
 
-        m_pMainEditor.BeginLine();
+        element.m_sDecoratePath = (string)EditorField("Decorate", element.m_sDecoratePath, iLineStart, ref bBeginLine);
+        element.m_sHeightPath = (string)EditorField("Height", element.m_sHeightPath, iLineStart, ref bBeginLine);
+        element.m_sGroundPath = (string)EditorField("Ground", element.m_sGroundPath, iLineStart, ref bBeginLine);
 
-        element.m_sDecoratePath = (string)EditorField("Decorate", element.m_sDecoratePath);
-        element.m_sHeightPath = (string)EditorField("Height", element.m_sHeightPath);
-        element.m_sGroundPath = (string)EditorField("Ground", element.m_sGroundPath);
-
-        m_pMainEditor.EndLine();
+        EndLine(ref bBeginLine);
     }
 
     #endregion

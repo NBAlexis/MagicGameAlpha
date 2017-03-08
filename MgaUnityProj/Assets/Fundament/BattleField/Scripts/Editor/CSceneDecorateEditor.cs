@@ -29,18 +29,18 @@ public class CSceneDecorateEditor : TMGTextDataEditor<CSceneDecorateElement>
         m_pEditingData.Load();
     }
 
-    protected override void EditorOneElement(CSceneDecorateElement element, bool bFocus)
+    [MGADataEditor(typeof(CSceneDecorateElement))]
+    protected static void EditOneElement(CSceneDecorateElement element, int iLineStart)
     {
-        base.EditorOneElement(element, bFocus);
+        bool bBeginLine = false;
+        BeginLine(iLineStart, ref bBeginLine);
 
-        m_pMainEditor.BeginLine();
+        element.m_iDecrateRepeat = (int)EditorField("Repeat", element.m_iDecrateRepeat, iLineStart, ref bBeginLine);
+        element.m_iDecrateSize = (int)EditorField("Size", element.m_iDecrateSize, iLineStart, ref bBeginLine);
+        element.m_bBlockPathfinding = (bool)EditorField("Block", element.m_bBlockPathfinding, iLineStart, ref bBeginLine);
+        element.m_bOnlyRotateY = (bool)EditorField("RotateY", element.m_bOnlyRotateY, iLineStart, ref bBeginLine);
 
-        element.m_iDecrateRepeat = (int)EditorField("Repeat", element.m_iDecrateRepeat);
-        element.m_iDecrateSize = (int)EditorField("Size", element.m_iDecrateSize);
-        element.m_bBlockPathfinding = (bool)EditorField("Block", element.m_bBlockPathfinding);
-        element.m_bOnlyRotateY = (bool)EditorField("RotateY", element.m_bOnlyRotateY);
-
-        m_pMainEditor.EndLine();
+        EndLine(ref bBeginLine);
     }
 
     #endregion

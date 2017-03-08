@@ -22,23 +22,23 @@ public class CCharactorColorEditor : TMGTextDataEditor<CCharactorColorElement>
         m_pEditingData.Load();
     }
 
-    protected override void EditorOneElement(CCharactorColorElement element, bool bFocus)
+    [MGADataEditor(typeof(CCharactorColorElement))]
+    protected static void EditOneElement(CCharactorColorElement element, int iLineStart)
     {
-        base.EditorOneElement(element, bFocus);
+        bool bBeginLine = false;
+        BeginLine(iLineStart, ref bBeginLine);
 
-        m_pMainEditor.BeginLine();
+        element.m_cColor = (Color)EditorField("Color", element.m_cColor, iLineStart, ref bBeginLine);
+        element.m_bMain = (bool)EditorField("IsMain", element.m_bMain, iLineStart, ref bBeginLine);
 
-        element.m_cColor = (Color)EditorField("Color", element.m_cColor);
-        element.m_bMain = (bool) EditorField("IsMain", element.m_bMain);
+        EndLine(ref bBeginLine);
 
-        m_pMainEditor.EndLine();
+        BeginLine(iLineStart, ref bBeginLine);
 
-        m_pMainEditor.BeginLine();
+        element.m_eMainColor = (ECharactorMainColor)EditorField("Main Color", element.m_eMainColor, iLineStart, ref bBeginLine);
+        element.m_eSubColor = (ECharactorSubColor)EditorField("Sub Color", element.m_eSubColor, iLineStart, ref bBeginLine);
 
-        element.m_eMainColor = (ECharactorMainColor)EditorField("Main Color", element.m_eMainColor);
-        element.m_eSubColor = (ECharactorSubColor)EditorField("Sub Color", element.m_eSubColor);
-
-        m_pMainEditor.EndLine();
+        EndLine(ref bBeginLine);
     }
 
     #endregion

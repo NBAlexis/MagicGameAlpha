@@ -23,18 +23,18 @@ public class CSeneTypeEditor : TMGTextDataEditor<CSceneTypeElement>
         m_pEditingData.Load();
     }
 
-    protected override void EditorOneElement(CSceneTypeElement element, bool bFocus)
+    [MGADataEditor(typeof(CSceneTypeElement))]
+    protected static void EditOneElement(CSceneTypeElement element, int iLineStart)
     {
-        base.EditorOneElement(element, bFocus);
+        bool bBeginLine = false;
+        BeginLine(iLineStart, ref bBeginLine);
 
-        m_pMainEditor.BeginLine();
+        element.m_iCliffType = (int)EditorField("Cliff", element.m_iCliffType, iLineStart, ref bBeginLine);
+        element.m_bHasGroundOffset = (bool)EditorField("HasOffset", element.m_bHasGroundOffset, iLineStart, ref bBeginLine);
+        element.m_eEdgeType = (ESceneEdgeType)EditorField("Edge", element.m_eEdgeType, iLineStart, ref bBeginLine);
+        element.m_bCanRot = (bool)EditorField("Rot", element.m_bCanRot, iLineStart, ref bBeginLine);
 
-        element.m_iCliffType = (int)EditorField("Cliff", element.m_iCliffType);
-        element.m_bHasGroundOffset = (bool)EditorField("HasOffset", element.m_bHasGroundOffset);
-        element.m_eEdgeType = (ESceneEdgeType)EditorField("Edge", element.m_eEdgeType);
-        element.m_bCanRot = (bool)EditorField("Rot", element.m_bCanRot);
-
-        m_pMainEditor.EndLine();
+        EndLine(ref bBeginLine);
     }
 
     #endregion
