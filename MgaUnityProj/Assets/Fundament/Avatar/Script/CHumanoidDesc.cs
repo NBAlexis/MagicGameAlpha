@@ -63,6 +63,16 @@ public class CHumanoidDescElement : CMGDataElement
         return new CHumanoidDescElement();
     }
 
+    public override CMGDataElement[] GetDefaultList(int iLength)
+    {
+        CHumanoidDescElement[] ret = new CHumanoidDescElement[iLength];
+        for (int i = 0; i < iLength; ++i)
+        {
+            ret[i] = new CHumanoidDescElement();
+        }
+        return ret;
+    }
+
     public override CMGDataElement Copy()
     {
         return new CHumanoidDescElement
@@ -76,29 +86,29 @@ public class CHumanoidDescElement : CMGDataElement
         };
     }
 
-    override public string GetString()
+    override public string GetString(string sParent)
     {
-        string sRet = base.GetString();
+        string sRet = base.GetString(sParent);
 
-        sRet += Write("ObjectPath", m_sObjectPath);
-        sRet += Write("Pos", m_ePos);
-        sRet += Write("Weight", m_iWeight);
-        sRet += Write("HumanType", m_eHumanType);
-        sRet += Write("HumanSide", m_eHumanSide);
-        sRet += Write("HumanWeapon", m_eHumanWeapon);
+        sRet += Write("ObjectPath", sParent, m_sObjectPath);
+        sRet += Write("Pos", sParent, m_ePos);
+        sRet += Write("Weight", sParent, m_iWeight);
+        sRet += Write("HumanType", sParent, m_eHumanType);
+        sRet += Write("HumanSide", sParent, m_eHumanSide);
+        sRet += Write("HumanWeapon", sParent, m_eHumanWeapon);
 
         return sRet;
     }
 
-    override public void LoadData(string sTextToParse)
+    override public void LoadData(string sTextToParse, string sParent)
     {
-        base.LoadData(sTextToParse);
-        m_sObjectPath = (string)GetElementValue(sTextToParse, "ObjectPath", m_sObjectPath);
-        m_ePos = (EHumanoidComponentPos)GetElementValue(sTextToParse, "Pos", m_ePos);
-        m_iWeight = (int)GetElementValue(sTextToParse, "Weight", m_iWeight);
-        m_eHumanType = (EHumanoidType)GetElementValue(sTextToParse, "HumanType", m_eHumanType);
-        m_eHumanSide = (EHumanoidSide)GetElementValue(sTextToParse, "HumanSide", m_eHumanSide);
-        m_eHumanWeapon = (EHumanoidWeapon)GetElementValue(sTextToParse, "HumanWeapon", m_eHumanWeapon);
+        base.LoadData(sTextToParse, sParent);
+        m_sObjectPath = (string)GetElementValue(sTextToParse, sParent, "ObjectPath", m_sObjectPath);
+        m_ePos = (EHumanoidComponentPos)GetElementValue(sTextToParse, sParent, "Pos", m_ePos);
+        m_iWeight = (int)GetElementValue(sTextToParse, sParent, "Weight", m_iWeight);
+        m_eHumanType = (EHumanoidType)GetElementValue(sTextToParse, sParent, "HumanType", m_eHumanType);
+        m_eHumanSide = (EHumanoidSide)GetElementValue(sTextToParse, sParent, "HumanSide", m_eHumanSide);
+        m_eHumanWeapon = (EHumanoidWeapon)GetElementValue(sTextToParse, sParent, "HumanWeapon", m_eHumanWeapon);
     }
 }
 

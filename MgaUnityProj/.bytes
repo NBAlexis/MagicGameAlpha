@@ -1,0 +1,25 @@
+﻿
+{
+
+"ID" : "0",
+"ElementName" : "Ground",
+"Tags" : "",
+"Name" : "Name",
+"Fields.Length" : "1",
+
+"Fields.Element0.ID" : "0",
+"Fields.Element0.ElementName" : "",
+"Fields.Element0.Tags" : "",
+"Fields.Element0.FieldName" : "GroundType",
+"Fields.Element0.FieldType" : "string",
+"Fields.Element0.FieldDefault" : """",
+"Fields.Element0.FieldEdtiorName" : "GroundType",
+"Enums.Length" : "1",
+
+"Enums.Element0.ID" : "1",
+"Enums.Element0.ElementName" : "",
+"Enums.Element0.Tags" : "",
+"Enums.Element0.EnumeName" : "EnumeName",
+"Enums.Element0.Memeber" : "Memeber1;Member2",
+
+}

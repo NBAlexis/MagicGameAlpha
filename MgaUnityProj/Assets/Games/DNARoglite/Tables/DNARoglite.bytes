@@ -1,0 +1,33 @@
+﻿
+{
+
+"ID" : "0",
+"ElementName" : "Ground",
+"Tags" : "",
+"Name" : "Name",
+"Fields.Length" : "2",
+
+"Fields.Element0.ID" : "0",
+"Fields.Element0.ElementName" : "",
+"Fields.Element0.Tags" : "",
+"Fields.Element0.FieldName" : "GroundType",
+"Fields.Element0.FieldType" : "string",
+"Fields.Element0.FieldDefault" : """",
+"Fields.Element0.FieldEdtiorName" : "GroundType",
+
+"Fields.Element1.ID" : "0",
+"Fields.Element1.ElementName" : "",
+"Fields.Element1.Tags" : "",
+"Fields.Element1.FieldName" : "Walkable",
+"Fields.Element1.FieldType" : "Walkable",
+"Fields.Element1.FieldDefault" : "Walkable",
+"Fields.Element1.FieldEdtiorName" : "Walkable",
+"Enums.Length" : "1",
+
+"Enums.Element0.ID" : "0",
+"Enums.Element0.ElementName" : "",
+"Enums.Element0.Tags" : "",
+"Enums.Element0.EnumeName" : "Walkable",
+"Enums.Element0.Memeber" : "Walkable;Nonwalkable",
+
+}

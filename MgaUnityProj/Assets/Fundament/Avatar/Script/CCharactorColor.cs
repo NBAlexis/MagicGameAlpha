@@ -32,6 +32,16 @@ public class CCharactorColorElement : CMGDataElement
         return new CCharactorColorElement();
     }
 
+    public override CMGDataElement[] GetDefaultList(int iLength)
+    {
+        CCharactorColorElement[] ret = new CCharactorColorElement[iLength];
+        for (int i = 0; i < iLength; ++i)
+        {
+            ret[i] = new CCharactorColorElement();
+        }
+        return ret;
+    }
+
     public override CMGDataElement Copy()
     {
         return new CCharactorColorElement
@@ -43,25 +53,25 @@ public class CCharactorColorElement : CMGDataElement
         };
     }
 
-    override public string GetString()
+    override public string GetString(string sParent)
     {
-        string sRet = base.GetString();
+        string sRet = base.GetString(sParent);
 
-        sRet += Write("Color", m_cColor);
-        sRet += Write("IsMain", m_bMain);
-        sRet += Write("MainColor", m_eMainColor);
-        sRet += Write("SubColor", m_eSubColor);
+        sRet += Write("Color", sParent, m_cColor);
+        sRet += Write("IsMain", sParent, m_bMain);
+        sRet += Write("MainColor", sParent, m_eMainColor);
+        sRet += Write("SubColor", sParent, m_eSubColor);
 
         return sRet;
     }
 
-    override public void LoadData(string sTextToParse)
+    override public void LoadData(string sTextToParse, string sParent)
     {
-        base.LoadData(sTextToParse);
-        m_cColor = (Color)GetElementValue(sTextToParse, "Color", m_cColor);
-        m_bMain = (bool)GetElementValue(sTextToParse, "IsMain", m_bMain);
-        m_eMainColor = (ECharactorMainColor)GetElementValue(sTextToParse, "MainColor", m_eMainColor);
-        m_eSubColor = (ECharactorSubColor)GetElementValue(sTextToParse, "SubColor", m_eSubColor);
+        base.LoadData(sTextToParse, sParent);
+        m_cColor = (Color)GetElementValue(sTextToParse, sParent, "Color", m_cColor);
+        m_bMain = (bool)GetElementValue(sTextToParse, sParent, "IsMain", m_bMain);
+        m_eMainColor = (ECharactorMainColor)GetElementValue(sTextToParse, sParent, "MainColor", m_eMainColor);
+        m_eSubColor = (ECharactorSubColor)GetElementValue(sTextToParse, sParent, "SubColor", m_eSubColor);
 
         if (m_bMain)
         {

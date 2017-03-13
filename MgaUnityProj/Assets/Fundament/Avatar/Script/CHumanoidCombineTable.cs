@@ -9,6 +9,16 @@ public class CHumanoidCombineTableElement : CMGDataElement
         return new CHumanoidCombineTableElement();
     }
 
+    public override CMGDataElement[] GetDefaultList(int iLength)
+    {
+        CHumanoidCombineTableElement[] ret = new CHumanoidCombineTableElement[iLength];
+        for (int i = 0; i < iLength; ++i)
+        {
+            ret[i] = new CHumanoidCombineTableElement();
+        }
+        return ret;
+    }
+
     public override CMGDataElement Copy()
     {
         CHumanoidCombineTableElement ret = new CHumanoidCombineTableElement();
@@ -16,17 +26,17 @@ public class CHumanoidCombineTableElement : CMGDataElement
         return ret;
     }
 
-    override public string GetString()
+    override public string GetString(string sParent)
     {
-        string sRet = base.GetString();
-        sRet += Write("Combine", m_sCombine);
+        string sRet = base.GetString(sParent);
+        sRet += Write("Combine", sParent, m_sCombine);
         return sRet;
     }
 
-    override public void LoadData(string sTextToParse)
+    override public void LoadData(string sTextToParse, string sParent)
     {
-        base.LoadData(sTextToParse);
-        m_sCombine = (string[])GetElementValue(sTextToParse, "Combine", m_sCombine);
+        base.LoadData(sTextToParse, sParent);
+        m_sCombine = (string[])GetElementValue(sTextToParse, sParent, "Combine", m_sCombine);
     }
 }
 

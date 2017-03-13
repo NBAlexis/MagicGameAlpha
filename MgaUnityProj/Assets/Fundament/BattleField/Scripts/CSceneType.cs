@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public enum ESceneEdgeType
 {
@@ -22,6 +21,16 @@ public class CSceneTypeElement : CMGDataElement
         return new CSceneTypeElement();
     }
 
+    public override CMGDataElement[] GetDefaultList(int iLength)
+    {
+        CSceneTypeElement[] ret = new CSceneTypeElement[iLength];
+        for (int i = 0; i < iLength; ++i)
+        {
+            ret[i] = new CSceneTypeElement();
+        }
+        return ret;
+    }
+
     public override CMGDataElement Copy()
     {
         return new CSceneTypeElement
@@ -33,24 +42,24 @@ public class CSceneTypeElement : CMGDataElement
         };
     }
 
-    override public string GetString()
+    override public string GetString(string sParent)
     {
-        string sRet = base.GetString();
-        sRet += Write("Cliff", m_iCliffType);
-        sRet += Write("HasOffset", m_bHasGroundOffset);
-        sRet += Write("Edge", m_eEdgeType);
-        sRet += Write("Rot", m_bCanRot);
+        string sRet = base.GetString(sParent);
+        sRet += Write("Cliff", sParent, m_iCliffType);
+        sRet += Write("HasOffset", sParent, m_bHasGroundOffset);
+        sRet += Write("Edge", sParent, m_eEdgeType);
+        sRet += Write("Rot", sParent, m_bCanRot);
 
         return sRet;
     }
 
-    override public void LoadData(string sTextToParse)
+    override public void LoadData(string sTextToParse, string sParent)
     {
-        base.LoadData(sTextToParse);
-        m_iCliffType = (int)GetElementValue(sTextToParse, "Cliff", m_iCliffType);
-        m_bHasGroundOffset = (bool)GetElementValue(sTextToParse, "HasOffset", m_bHasGroundOffset);
-        m_eEdgeType = (ESceneEdgeType)GetElementValue(sTextToParse, "Edge", m_eEdgeType);
-        m_bCanRot = (bool)GetElementValue(sTextToParse, "Rot", m_bCanRot);
+        base.LoadData(sTextToParse, sParent);
+        m_iCliffType = (int)GetElementValue(sTextToParse, sParent, "Cliff", m_iCliffType);
+        m_bHasGroundOffset = (bool)GetElementValue(sTextToParse, sParent, "HasOffset", m_bHasGroundOffset);
+        m_eEdgeType = (ESceneEdgeType)GetElementValue(sTextToParse, sParent, "Edge", m_eEdgeType);
+        m_bCanRot = (bool)GetElementValue(sTextToParse, sParent, "Rot", m_bCanRot);
     }
 }
 

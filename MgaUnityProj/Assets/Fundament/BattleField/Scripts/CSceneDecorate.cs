@@ -12,6 +12,16 @@ public class CSceneDecorateElement : CMGDataElement
         return new CSceneDecorateElement();
     }
 
+    public override CMGDataElement[] GetDefaultList(int iLength)
+    {
+        CSceneDecorateElement[] ret = new CSceneDecorateElement[iLength];
+        for (int i = 0; i < iLength; ++i)
+        {
+            ret[i] = new CSceneDecorateElement();
+        }
+        return ret;
+    }
+
     public override CMGDataElement Copy()
     {
         return new CSceneDecorateElement
@@ -23,24 +33,24 @@ public class CSceneDecorateElement : CMGDataElement
         };
     }
 
-    override public string GetString()
+    override public string GetString(string sParent)
     {
-        string sRet = base.GetString();
-        sRet += Write("Repeat", m_iDecrateRepeat);
-        sRet += Write("Size", m_iDecrateSize);
-        sRet += Write("Block", m_bBlockPathfinding);
-        sRet += Write("RotateY", m_bOnlyRotateY);
+        string sRet = base.GetString(sParent);
+        sRet += Write("Repeat", sParent, m_iDecrateRepeat);
+        sRet += Write("Size", sParent, m_iDecrateSize);
+        sRet += Write("Block", sParent, m_bBlockPathfinding);
+        sRet += Write("RotateY", sParent, m_bOnlyRotateY);
 
         return sRet;
     }
 
-    override public void LoadData(string sTextToParse)
+    override public void LoadData(string sTextToParse, string sParent)
     {
-        base.LoadData(sTextToParse);
-        m_iDecrateRepeat = (int)GetElementValue(sTextToParse, "Repeat", m_iDecrateRepeat);
-        m_iDecrateSize = (int)GetElementValue(sTextToParse, "Size", m_iDecrateSize);
-        m_bBlockPathfinding = (bool)GetElementValue(sTextToParse, "Block", m_bBlockPathfinding);
-        m_bOnlyRotateY = (bool)GetElementValue(sTextToParse, "RotateY", m_bOnlyRotateY);
+        base.LoadData(sTextToParse, sParent);
+        m_iDecrateRepeat = (int)GetElementValue(sTextToParse, sParent, "Repeat", m_iDecrateRepeat);
+        m_iDecrateSize = (int)GetElementValue(sTextToParse, sParent, "Size", m_iDecrateSize);
+        m_bBlockPathfinding = (bool)GetElementValue(sTextToParse, sParent, "Block", m_bBlockPathfinding);
+        m_bOnlyRotateY = (bool)GetElementValue(sTextToParse, sParent, "RotateY", m_bOnlyRotateY);
     }
 }
 

@@ -11,6 +11,16 @@ public class CSceneTemplateElement : CMGDataElement
         return new CSceneTemplateElement();
     }
 
+    public override CMGDataElement[] GetDefaultList(int iLength)
+    {
+        CSceneTemplateElement[] ret = new CSceneTemplateElement[iLength];
+        for (int i = 0; i < iLength; ++i)
+        {
+            ret[i] = new CSceneTemplateElement();
+        }
+        return ret;
+    }
+
     public override CMGDataElement Copy()
     {
         return new CSceneTemplateElement
@@ -21,23 +31,23 @@ public class CSceneTemplateElement : CMGDataElement
         };
     }
 
-    override public string GetString()
+    override public string GetString(string sParent)
     {
-        string sRet = base.GetString();
-        sRet += Write("Decorate", m_sDecoratePath);
-        sRet += Write("Height", m_sHeightPath);
-        sRet += Write("Ground", m_sGroundPath);
+        string sRet = base.GetString(sParent);
+        sRet += Write("Decorate", sParent, m_sDecoratePath);
+        sRet += Write("Height", sParent, m_sHeightPath);
+        sRet += Write("Ground", sParent, m_sGroundPath);
 
         return sRet;
     }
 
-    override public void LoadData(string sTextToParse)
+    override public void LoadData(string sTextToParse, string sParent)
     {
-        base.LoadData(sTextToParse);
+        base.LoadData(sTextToParse, sParent);
 
-        m_sDecoratePath = (string)GetElementValue(sTextToParse, "Decorate", m_sDecoratePath);
-        m_sHeightPath = (string)GetElementValue(sTextToParse, "Height", m_sHeightPath);
-        m_sGroundPath = (string)GetElementValue(sTextToParse, "Ground", m_sGroundPath);
+        m_sDecoratePath = (string)GetElementValue(sTextToParse, sParent, "Decorate", m_sDecoratePath);
+        m_sHeightPath = (string)GetElementValue(sTextToParse, sParent, "Height", m_sHeightPath);
+        m_sGroundPath = (string)GetElementValue(sTextToParse, sParent, "Ground", m_sGroundPath);
     }
 }
 

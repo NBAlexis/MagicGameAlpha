@@ -12,6 +12,16 @@ public class CSceneTextureElement : CMGDataElement
         return new CSceneTextureElement();
     }
 
+    public override CMGDataElement[] GetDefaultList(int iLength)
+    {
+        CSceneTextureElement[] ret = new CSceneTextureElement[iLength];
+        for (int i = 0; i < iLength; ++i)
+        {
+            ret[i] = new CSceneTextureElement();
+        }
+        return ret;
+    }
+
     public override CMGDataElement Copy()
     {
         return new CSceneTextureElement
@@ -23,25 +33,25 @@ public class CSceneTextureElement : CMGDataElement
         };
     }
 
-    override public string GetString()
+    override public string GetString(string sParent)
     {
-        string sRet = base.GetString();
+        string sRet = base.GetString(sParent);
 
-        sRet += Write("Template", m_iTemplate);
-        sRet += Write("Refl", m_bReflect);
-        sRet += Write("RotNumber", m_iRotNumber);
-        sRet += Write("Count", m_iTextureCount);
+        sRet += Write("Template", sParent, m_iTemplate);
+        sRet += Write("Refl", sParent, m_bReflect);
+        sRet += Write("RotNumber", sParent, m_iRotNumber);
+        sRet += Write("Count", sParent, m_iTextureCount);
 
         return sRet;
     }
 
-    override public void LoadData(string sTextToParse)
+    override public void LoadData(string sTextToParse, string sParent)
     {
-        base.LoadData(sTextToParse);
-        m_iTemplate = (int)GetElementValue(sTextToParse, "Template", m_iTemplate);
-        m_bReflect = (bool)GetElementValue(sTextToParse, "Refl", m_bReflect);
-        m_iRotNumber = (int)GetElementValue(sTextToParse, "RotNumber", m_iRotNumber);
-        m_iTextureCount = (int)GetElementValue(sTextToParse, "Count", m_iTextureCount);
+        base.LoadData(sTextToParse, sParent);
+        m_iTemplate = (int)GetElementValue(sTextToParse, sParent, "Template", m_iTemplate);
+        m_bReflect = (bool)GetElementValue(sTextToParse, sParent, "Refl", m_bReflect);
+        m_iRotNumber = (int)GetElementValue(sTextToParse, sParent, "RotNumber", m_iRotNumber);
+        m_iTextureCount = (int)GetElementValue(sTextToParse, sParent, "Count", m_iTextureCount);
     }
 }
 
